@@ -1,5 +1,5 @@
 ===================================================
-                   BLISS  SERVER                   
+                 MUSKETEER  SERVER                 
 ===================================================
 
 Installation Instructions
@@ -28,7 +28,7 @@ Installation Instructions
 
 ===================================================
 Updating the Server
-	- Download the latest Bliss Server Pack from CurseForge
+	- Download the latest Musketeer Server Pack from CurseForge
 
 	- Stop your server AND BACK UP YOUR INSTANCE(!!!)
 
