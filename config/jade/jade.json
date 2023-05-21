@@ -2,29 +2,29 @@
   "general": {
     "displayTooltip": true,
     "displayBlocks": true,
-    "displayEntities": true,
+    "displayEntities": false,
     "displayMode": "TOGGLE",
     "hideFromDebug": true,
     "hideFromTabList": true,
     "enableTextToSpeech": false,
     "ttsMode": "PRESS",
-    "fluidMode": "ANY",
+    "fluidMode": "NONE",
     "reachDistance": 0.0,
     "debug": false,
-    "itemModNameTooltip": true,
+    "itemModNameTooltip": false,
     "bossBarOverlapMode": "PUSH_DOWN",
     "hintOverlayToggle": true
   },
   "overlay": {
-    "overlayPosX": 0.5,
-    "overlayPosY": 1.0,
-    "overlayScale": 1.0,
-    "overlayAnchorX": 0.5,
+    "overlayPosX": 0.5023349,
+    "overlayPosY": 0.98809713,
+    "overlayScale": 1.0063254,
+    "overlayAnchorX": 0.5095851,
     "overlayAnchorY": 0.0,
     "overlaySquare": false,
     "flipMainHand": false,
     "autoScaleThreshold": 0.5,
-    "alpha": 0.7,
+    "alpha": 0.35370615,
     "themes": {
       "jade:waila": {
         "id": "jade:waila",
@@ -65,7 +65,7 @@
     },
     "activeTheme": "jade:dark",
     "iconMode": "TOP",
-    "animation": true
+    "animation": false
   },
   "formatting": {
     "modName": "§9§o%s"
