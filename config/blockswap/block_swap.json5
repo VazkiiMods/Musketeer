@@ -84,5 +84,8 @@ to make editing this file much easier.
 	   		"minecraft:diamond_block": "minecraft:emerald_block"
 	   	}
 	*/
-	"swapper": { }
+	"swapper": { 
+		"minecraft:nether_portal": "minecraft:netherrack",
+		"moreminecarts:glass_cactus": "minecraft:cactus"
+	}
 }
