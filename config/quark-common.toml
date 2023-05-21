@@ -1,6 +1,6 @@
 
 [general]
-	"Enable 'q' Button" = true
+	"Enable 'q' Button" = false
 	"'q' Button on the Right" = false
 	"Disable Q Menu Effects" = false
 	#Disable this to turn off the quark system that makes features turn off when specified mods with the same content are loaded
@@ -8,7 +8,7 @@
 	#Quark replaces the Piston logic to allow for its piston features to work. If you're having troubles, try turning this off.
 	"Use Piston Logic Replacement" = true
 	#Allowed values: (0,)
-	"Piston Push Limit" = 12
+	"Piston Push Limit" = 24
 	#How many advancements deep you can see in the advancement screen. Vanilla is 2.
 	#Allowed values: (0,)
 	"Advancement Visibility Depth" = 2
@@ -35,7 +35,7 @@
 	#Set to false to stop quark from adding its own advancements
 	"Enable Quark Advancements" = true
 	#Set to false to disable the popup message telling you that you can config quark in the q menu
-	"Enable Onboarding" = true
+	"Enable Onboarding" = false
 	#Set to false to disable the behavior where quark will automatically hide any disabled items
 	"Hide Disabled Content" = true
 
@@ -76,7 +76,7 @@
 		"Enable Gold" = true
 
 	[automation.iron_rod]
-		"Use Pre End Recipe" = false
+		"Use Pre End Recipe" = true
 
 	[automation.feeding_trough]
 		#How long, in game ticks, between animals being able to eat from the trough
@@ -125,7 +125,7 @@
 	"Gold Bars" = true
 	"Glass Item Frame" = true
 	"Framed Glass" = true
-	"Duskbound Blocks" = true
+	"Duskbound Blocks" = false
 	"Compressed Blocks" = true
 	"Celebratory Lamps" = true
 	"Bamboo Backport" = true
@@ -146,7 +146,7 @@
 		# - woodworks
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
-		"Ignore Anti Overlap" = false
+		"Ignore Anti Overlap" = true
 		"Change Names" = true
 
 	[building.variant_chests]
@@ -154,7 +154,7 @@
 		# - woodworks
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
-		"Ignore Anti Overlap" = false
+		"Ignore Anti Overlap" = true
 		"Replace Worldgen Chests" = true
 		"Enable Reverting Wooden Chests" = true
 		#Chests to put in each structure. The format per entry is "structure=chest", where "structure" is a structure ID, and "chest" is a block ID, which must correspond to a standard chest block.
@@ -165,7 +165,7 @@
 		# - woodworks
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
-		"Ignore Anti Overlap" = false
+		"Ignore Anti Overlap" = true
 		"Change Names" = true
 
 	[building.thatch]
@@ -420,7 +420,7 @@
 		"Multi Threaded" = true
 		"Search Radius" = 6400
 		"Xp From Trade" = 5
-		"Add To Cartographer" = true
+		"Add To Cartographer" = false
 		"Add To Wandering Trader Forced" = true
 		"Add To Wandering Trader Generic" = false
 		"Add To Wandering Trader Rare" = false
@@ -436,7 +436,7 @@
 
 	[tools.endermosh_music_disc]
 		"Play Endermosh During Enderdragon Fight" = false
-		"Add To End City Loot" = true
+		"Add To End City Loot" = false
 		"Loot Weight" = 5
 		"Loot Quality" = 1
 
@@ -517,12 +517,12 @@
 	"Enhanced Ladders" = true
 	Emotes = true
 	"Dyeable Item Frames" = true
-	"Dragon Scales" = true
+	"Dragon Scales" = false
 	"Double Door Opening" = true
 	"Coral On Cactus" = true
 	"Compasses Work Everywhere" = true
-	"Campfires Boost Elytra" = true
-	"Better Elytra Rocket" = true
+	"Campfires Boost Elytra" = false
+	"Better Elytra Rocket" = false
 	"Automatic Recipe Unlock" = true
 	"Armed Armor Stands" = true
 
@@ -548,7 +548,7 @@
 		#Can Rotten Flesh and Poisonous Potatoes be composted?
 		"Compostable Toxins" = true
 		#Does Dragon Breath return a bottle when used as a reagent or material?
-		"Effective Dragon Breath" = true
+		"Effective Dragon Breath" = false
 		#Can torches can be used as fuel in furnaces?
 		"Torches Burn" = true
 		#Can bones be smelted down to bone meal?
@@ -698,16 +698,16 @@
 		"Filter Recipe Advancements" = true
 
 [world]
-	"Spiral Spires" = true
+	"Spiral Spires" = false
 	Permafrost = true
-	"No More Lava Pockets" = true
+	"No More Lava Pockets" = false
 	"New Stone Types" = true
-	"Nether Obsidian Spikes" = true
+	"Nether Obsidian Spikes" = false
 	"Monster Box" = true
 	"Glimmering Weald" = true
 	"Fairy Rings" = true
 	Corundum = true
-	"Chorus Vegetation" = true
+	"Chorus Vegetation" = false
 	"Blossom Trees" = true
 	"Big Stone Clusters" = true
 	"Azalea Wood" = true
@@ -1264,11 +1264,11 @@
 		"Ancient City Loot Quality" = 1
 
 [mobs]
-	Wraith = true
+	Wraith = false
 	Toretoise = true
 	Stonelings = true
 	Shiba = true
-	Foxhound = true
+	Foxhound = false
 	Forgotten = true
 	Crabs = true
 
@@ -1461,8 +1461,8 @@
 	"Long Range Pick Block" = true
 	"Improved Tooltips" = true
 	"Greener Grass" = true
-	"Elytra Indicator" = true
-	"Chest Searching" = true
+	"Elytra Indicator" = false
+	"Chest Searching" = false
 	Camera = true
 	"Back Button Keybind" = true
 	"Auto Walk Keybind" = true
@@ -1550,7 +1550,7 @@
 	"Spawner Replacer" = false
 	"Overlay Shader" = false
 	"Narrator Readout" = false
-	"Game Nerfs" = false
+	"Game Nerfs" = true
 	"Enchantments Begone" = false
 	#This feature generates Resource Pack Item Model predicates on the items defined in 'Items to Change'
 	#for the Enchantments defined in 'Enchantments to Register'.
@@ -1585,7 +1585,7 @@
 		#Makes Sheep not drop Wool when killed
 		"Disable Wool Drops" = true
 		#Disables mob griefing for only specific entities
-		"Enable Selective Mob Griefing" = true
+		"Enable Selective Mob Griefing" = false
 		"Non Griefing Entities" = ["minecraft:creeper", "minecraft:enderman"]
 
 	[experimental.enchantments_begone]
@@ -1700,7 +1700,7 @@
 		"Magnetic Derivation List" = ["minecraft:iron_ingot", "minecraft:copper_ingot", "minecraft:exposed_copper", "minecraft:weathered_copper", "minecraft:oxidized_copper", "minecraft:raw_iron", "minecraft:raw_copper", "minecraft:iron_ore", "minecraft:deepslate_iron_ore", "minecraft:copper_ore", "minecraft:deepslate_copper_ore"]
 		"Magnetic Whitelist" = ["minecraft:chipped_anvil", "minecraft:damaged_anvil"]
 		"Magnetic Blacklist" = ["minecraft:tripwire_hook"]
-		"Use Pre End Recipe" = false
+		"Use Pre End Recipe" = true
 
 	[oddities.crate]
 		"Max Items" = 640
