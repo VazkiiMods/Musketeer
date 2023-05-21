@@ -1586,7 +1586,7 @@
 		"Disable Wool Drops" = true
 		#Disables mob griefing for only specific entities
 		"Enable Selective Mob Griefing" = true
-		"Non Griefing Entities" = [minecraft:enderman"]
+		"Non Griefing Entities" = ["minecraft:enderman"]
 
 	[experimental.enchantments_begone]
 		"Enchantments To Begone" = []
