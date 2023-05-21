@@ -22,7 +22,7 @@
 
 [Firent]
 	#Should fires be healed?
-	FireHealingEnabled = true
+	FireHealingEnabled = false
 	#How many ticks should pass until the healing starts after the fire? (TICKS, 20 = 1 second on a non-laggy server)
 	#Range: 0 ~ 100000
 	healDelayFire = 18000

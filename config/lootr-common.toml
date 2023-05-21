@@ -15,7 +15,7 @@ loot_modid_blacklist = []
 #a list of additional trapped chests that should be converted (in the format of ["modid:name", "modid:other_name"], must be a tile entity instance of RandomizableContainerBlockEntity)
 additional_trapped_chests = []
 #lootr chests cannot be destroyed by any explosion
-blast_immune = false
+blast_immune = true
 #list of dimensions (to the exclusion of all others) that loot chest should be replaced in (default: blank, allowing all dimensions, e.g., ["minecraft:overworld", "minecraft:the_end"])
 dimension_whitelist = []
 #list of dimensions where loot chests should automatically decay (default: blank, e.g., ["minecraft:the_nether", "minecraft:the_end"])
@@ -51,7 +51,7 @@ refresh_all = false
 #overriding decay_loot_tables, decay_modids and decay_dimensions: all chests will decay after being opened for the first time
 decay_all = false
 #lootr chests cannot be destroyed by creeper or TNT explosions
-blast_resistant = false
+blast_resistant = true
 #list of dimensions that loot chests should not be replaced in (default: blank, allowing all dimensions, format e.g., ["minecraft:overworld", "minecraft:the_end"])
 dimension_blacklist = []
 #prevent the destruction of Lootr chests except while sneaking in creative mode

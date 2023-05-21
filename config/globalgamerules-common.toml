@@ -20,7 +20,7 @@
 	#Whether phantoms can spawn in the nighttime
 	do_insomnia = true
 	#Whether players should be able to craft only those recipes that they've unlocked first
-	do_limited_crafting = false
+	do_limited_crafting = true
 	#Whether mobs should drop items and experience orbs
 	do_mob_loot = true
 	#Whether mobs should naturally spawn. Does not affect monster spawners
@@ -61,12 +61,12 @@
 	natural_regeneration = true
 	#What percentage of players must sleep to skip the night
 	#Range: > 0
-	players_sleeping_percentage = 100
+	players_sleeping_percentage = 50
 	#How often a random block tick occurs (such as plant growth, leaf decay, etc.) per chunk section per game tick. 0 and negative values disables random ticks, higher numbers increase random ticks. Setting to a high integer results in high speeds of decay and growth. Numbers over 4096 make plant growth or leaf decay instantaneous
 	#Range: > 0
 	random_tick_speed = 3
 	#Whether the debug screen shows all or reduced information; and whether the effects of F3+B (entity hitboxes) and F3+G (chunk boundaries) are shown
-	reduced_debug_info = false
+	reduced_debug_info = true
 	#Whether the feedback from commands executed by a player should show up in chat. Also affects the default behavior of whether command blocks store their output text
 	send_command_feedback = true
 	#Whether death messages are put into chat when a player dies. Also affects whether a message is sent to the pet's owner when the pet dies
@@ -97,7 +97,7 @@
 #A collection of misc configs
 [misc]
 	#If gamerules should be saved to config on world unload
-	save_gamerules = true
+	save_gamerules = false
 	#A comma separated list of commands to run on world join, @p is replaced with joining player name, command is run by the server
 	#Example: default_commands = ["/tellraw @p [\"\",{\"text\":\"Hi \"},{\"text\":\"@p\",\"color\":\"aqua\"}]"]
 	default_commands = []

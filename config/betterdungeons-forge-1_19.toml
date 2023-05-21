@@ -16,7 +16,7 @@
 		# This option may be useful for some modpack creators.
 		# Default: true
 		#
-		"Enable Nether Blocks in Dungeons" = true
+		"Enable Nether Blocks in Dungeons" = false
 
 	###########################################################################################################
 	## Zombie Dungeon settings.
