@@ -86,6 +86,8 @@ to make editing this file much easier.
 	*/
 	"swapper": { 
 		"minecraft:nether_portal": "minecraft:netherrack",
-		"moreminecarts:glass_cactus": "minecraft:cactus"
+		"moreminecarts:glass_cactus": "minecraft:cactus",
+		"minecraft:end_portal_frame": "minecraft:ancient_debris",
+		"minecraft:reinforced_deepslate": "minecraft:ancient_debris"
 	}
 }
