@@ -1,0 +1,5 @@
+
+["Configs for My Precious"]
+	#How much exp should restoring an item from a broken state to a version with one durability cost?
+	"Restore EXP Cost" = 15
+

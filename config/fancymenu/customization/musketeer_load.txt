@@ -1,0 +1,105 @@
+type = menu
+
+customization-meta {
+  identifier = de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = fancymenu_setups/_images/loading.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  original_pos_size_calculation = true
+  x = 144
+  width = 346
+  action = deep_customization_element:drippy_overlay_logo
+  actionid = cdb33dd8-91a0-443c-b99c-a580106eb9931684626145435
+  y = 130
+  height = 86
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = -1000000
+  width = 0
+  action = deep_customization_element:drippy_overlay_background
+  actionid = feb922ce-5ab4-4ebd-b993-5b825556b66d1684626145441
+  y = -1000000
+  height = 0
+}
+
+customization {
+  orientation = mid-centered
+  hidden = false
+  original_pos_size_calculation = false
+  x = -173
+  width = 346
+  action = deep_customization_element:drippy_overlay_progress_bar
+  actionid = b582b62c-397b-47f5-be5b-5719adca5d3c1684626145441
+  y = 37
+  height = 10
+}
+
+customization {
+  path = fancymenu_setups/_images/loading_logo.png
+  orientation = mid-centered
+  x = -154
+  width = 300
+  action = addtexture
+  actionid = 478c087d-2965-473e-b05b-fcc5cb82ba351684626498509
+  y = -62
+  height = 74
+}
+
+customization {
+  orientation = bottom-centered
+  enable_scrolling = true
+  shadow = false
+  scale = 1.0
+  source = Musketeer is a fan work.%n%Violet Moon is not affiliated with Mojang Studios.
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -160
+  width = 320
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 2f8356a1-4405-4f5e-8c08-84fe3f8730951684626639163
+  y = -30
+  alignment = centered
+  base_color = 999999
+  height = 30
+}
+
+customization {
+  orientation = mid-centered
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = Loading... {"placeholder":"drippy_gl_percent"}%%n%RAM Usage: {"placeholder":"usedram"}MB / {"placeholder":"maxram"}MB
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 20
+  x = -173
+  width = 347
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = a4557585-a386-4313-8f48-07948e8ef86a1684626845717
+  y = 12
+  alignment = left
+  height = 73
+}
+

@@ -1,0 +1,188 @@
+
+[types]
+
+	[types.wood_type]
+
+		[types.wood_type.quark]
+			bamboo = true
+			azalea = true
+			blossom = true
+			ancient = true
+
+		[types.wood_type.windswept]
+			holly = true
+			chestnut = true
+
+	[types.leaves_type]
+
+		[types.leaves_type.quark]
+			blue_blossom = true
+			lavender_blossom = true
+			orange_blossom = true
+			pink_blossom = true
+			yellow_blossom = true
+			red_blossom = true
+			ancient = true
+
+		[types.leaves_type.windswept]
+			holly = true
+			chestnut = true
+
+	[types.cut_block_type]
+
+		[types.cut_block_type.quark]
+			permafrost = true
+			permafrost_bricks = true
+			limestone = true
+			polished_limestone = true
+			jasper = true
+			polished_jasper = true
+			shale = true
+			polished_shale = true
+			myalite = true
+			polished_myalite = true
+			blossom_planks = true
+			azalea_planks = true
+			ancient_planks = true
+			thatch = true
+			soul_sandstone = true
+			cut_soul_sandstone = true
+			smooth_soul_sandstone = true
+			shingles = true
+			white_shingles = true
+			orange_shingles = true
+			magenta_shingles = true
+			light_blue_shingles = true
+			yellow_shingles = true
+			lime_shingles = true
+			pink_shingles = true
+			gray_shingles = true
+			light_gray_shingles = true
+			cyan_shingles = true
+			purple_shingles = true
+			blue_shingles = true
+			brown_shingles = true
+			green_shingles = true
+			red_shingles = true
+			black_shingles = true
+			raw_iron_bricks = true
+			raw_gold_bricks = true
+			raw_copper_bricks = true
+			calcite = true
+			polished_calcite = true
+			dripstone_block = true
+			polished_dripstone = true
+			tuff = true
+			polished_tuff = true
+			granite_bricks = true
+			diorite_bricks = true
+			andesite_bricks = true
+			calcite_bricks = true
+			dripstone_bricks = true
+			tuff_bricks = true
+			limestone_bricks = true
+			jasper_bricks = true
+			shale_bricks = true
+			myalite_bricks = true
+			blue_nether_bricks = true
+			sandstone_bricks = true
+			red_sandstone_bricks = true
+			soul_sandstone_bricks = true
+			cobblestone_bricks = true
+			mossy_cobblestone_bricks = true
+			blackstone_bricks = true
+			dirt_bricks = true
+			netherrack_bricks = true
+			midori_block = true
+			iron_plate = true
+			rusty_iron_plate = true
+			duskbound_block = true
+			bamboo_planks = true
+
+		[types.cut_block_type.supplementaries]
+			lapis_bricks = true
+			ash_bricks = true
+			stone_tile = true
+			blackstone_tile = true
+
+		[types.cut_block_type.windswept]
+			holly = true
+			chestnut = true
+			snow_brick = true
+			packed_ice_brick = true
+			blue_ice_brick = true
+
+		[types.cut_block_type.clayworks]
+			terracotta = true
+			white_terracotta = true
+			orange_terracotta = true
+			magenta_terracotta = true
+			light_blue_terracotta = true
+			yellow_terracotta = true
+			lime_terracotta = true
+			pink_terracotta = true
+			gray_terracotta = true
+			light_gray_terracotta = true
+			cyan_terracotta = true
+			purple_terracotta = true
+			blue_terracotta = true
+			brown_terracotta = true
+			green_terracotta = true
+			red_terracotta = true
+			black_terracotta = true
+			terracotta_brick = true
+			white_terracotta_brick = true
+			orange_terracotta_brick = true
+			magenta_terracotta_brick = true
+			light_blue_terracotta_brick = true
+			yellow_terracotta_brick = true
+			lime_terracotta_brick = true
+			pink_terracotta_brick = true
+			gray_terracotta_brick = true
+			light_gray_terracotta_brick = true
+			cyan_terracotta_brick = true
+			purple_terracotta_brick = true
+			blue_terracotta_brick = true
+			brown_terracotta_brick = true
+			green_terracotta_brick = true
+			red_terracotta_brick = true
+			black_terracotta_brick = true
+
+[entries]
+
+	[entries.wood_type]
+
+		[entries.wood_type.storagedrawers]
+			full_drawers_2 = true
+			half_drawers_1 = true
+			full_drawers_4 = true
+			half_drawers_4 = true
+			trim = true
+			half_drawers_2 = true
+			full_drawers_1 = true
+
+		[entries.wood_type.woodworks]
+			bookshelf = true
+			boards = true
+			ladder = true
+			beehive = true
+
+		[entries.wood_type.quark]
+			vertical_planks = true
+			post = true
+			trapped_chest = true
+			bookshelf = true
+			chest = true
+			stripped_post = true
+			ladder = true
+			hollow_log = true
+
+	[entries.leaves_type]
+
+		[entries.leaves_type.quark]
+			hedge = true
+			leaf_carpet = true
+
+		[entries.leaves_type.woodworks]
+			leaf_pile = true
+

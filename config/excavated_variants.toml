@@ -1,0 +1,7 @@
+#Toggles ore-gen changes; without this, ores won't be replaced during world gen.
+attempt_worldgen_replacement = 1
+#Toggles compatibility with JEI and REI for added conversion recipes.
+jei_rei_compat = 1
+#Toggles whether to add recipes to convert variants back to the base ore.
+add_conversion_recipes = 1
+
