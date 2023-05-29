@@ -219,7 +219,7 @@
 		# - immersive_weathering
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
-		"Ignore Anti Overlap" = false
+		"Ignore Anti Overlap" = true
 
 	[building.japanese_palette]
 		"Enable Paper Blocks" = true
@@ -882,7 +882,7 @@
 
 			[world.new_stone_types.myalite.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:the_end"]
+				Dimensions = ["minecraft:overworld"]
 
 			[world.new_stone_types.myalite.oregen_lower]
 				#Allowed values: [-64,320]
@@ -1109,7 +1109,7 @@
 	[world.big_stone_clusters]
 		#Blocks that stone clusters can replace. If you want to make it so it only replaces in one dimension,
 		#do "block|dimension", as we do for netherrack and end stone by default.
-		"Blocks To Replace" = ["minecraft:stone", "minecraft:andesite", "minecraft:diorite", "minecraft:granite", "minecraft:netherrack|minecraft:the_nether", "minecraft:end_stone|minecraft:the_end", "quark:marble", "quark:limestone", "quark:jasper", "quark:slate"]
+		"Blocks To Replace" = ["minecraft:stone", "minecraft:andesite", "minecraft:diorite", "minecraft:granite", "minecraft:netherrack|minecraft:the_nether", "minecraft:end_stone|minecraft:the_end", "quark:marble", "quark:limestone", "quark:jasper", "quark:slate", "minecraft:deepslate", "minecraft:tuff"]
 
 		[world.big_stone_clusters.calcite]
 			Enabled = true
@@ -1236,14 +1236,14 @@
 					"Is Blacklist" = true
 
 		[world.big_stone_clusters.myalite]
-			"Generate In Air" = true
+			"Generate In Air" = false
 			Enabled = true
 			#Allowed values: [0,)
-			Rarity = 100
+			Rarity = 1200
 			#Allowed values: [-64,320]
-			"Min Y Level" = 58
+			"Min Y Level" = -60
 			#Allowed values: [-64,320]
-			"Max Y Level" = 62
+			"Max Y Level" = -40
 			#Allowed values: [0,)
 			"Horizontal Size" = 20
 			#Allowed values: [0,)
@@ -1255,7 +1255,7 @@
 
 			[world.big_stone_clusters.myalite.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:the_end"]
+				Dimensions = ["minecraft:overworld"]
 
 			[world.big_stone_clusters.myalite.biomes]
 
@@ -1264,8 +1264,8 @@
 					"Is Blacklist" = true
 
 				[world.big_stone_clusters.myalite.biomes.biomes]
-					Biomes = ["minecraft:end_highlands"]
-					"Is Blacklist" = false
+					Biomes = ["minecraft:deep_dark", "quark:glimmering_weald"]
+					"Is Blacklist" = true
 
 	[world.azalea_wood]
 		#This feature disables itself if any of the following mods are loaded: 
