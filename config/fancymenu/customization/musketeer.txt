@@ -215,11 +215,6 @@ customization {
 }
 
 customization {
-  identifier = %id=376346%
-  action = hidebutton
-}
-
-customization {
   orientation = top-left
   hidden = true
   x = 342
@@ -404,5 +399,27 @@ customization {
   actionid = 4116190c-1c9e-4188-a941-95e35dbebb001684624149903
   y = 16
   height = 100
+}
+
+customization {
+  orientation = element
+  basecolor = #f1f79d
+  shadow = true
+  delayappearanceseconds = 0.01
+  splashfilepath = fancymenu_setups/splashes.txt
+  rotation = 0.0
+  scale = 1.0
+  refresh = true
+  bouncing = true
+  fadein = true
+  vanilla-like = false
+  fadeinspeed = 1.0
+  orientation_element = 4116190c-1c9e-4188-a941-95e35dbebb001684624149903
+  x = 60
+  actionid = 75bf8952-921e-459f-82f2-aa4138b98d321685315096020
+  action = addsplash
+  y = 78
+  delayappearance = true
+  delayappearanceeverytime = false
 }
 
