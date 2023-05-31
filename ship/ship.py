@@ -15,7 +15,7 @@ do_modrinth = False
 book_file = ''
 
 # Files to copy to the output zips
-files_to_copy = ['config', 'defaultconfigs', 'fancymenu_setups', 'patchouli_books', 'scripts', 'shaderpacks']
+files_to_copy = ['config', 'defaultconfigs', 'fancymenu_setups', 'scripts']
 
 # Files to not copy to the output zips
 blacklisted_files = [
@@ -168,7 +168,7 @@ def clear_files(dir_name, blacklist):
 # Update book.json with correct version
 def update_book(version):
 	if not book_file:
-		pass
+		return
 
 	with open(book_file, 'r') as in_file:
 		book_data = json.load(in_file)
@@ -279,7 +279,7 @@ def write_mods_csv(minecraftinstance_data):
 		'filename': 'forge-installer.jar'
 	})
 
-	with open(overrides_dir + '/mods.csv', 'w') as out_file:
+	with open(overrides_dir + '/mods.csv', 'w', encoding="utf-8") as out_file:
 		for mod in download_files:
 			out_file.write(mod['url'].replace(' ', '%20') + ',' + mod['filename'].replace(' ', '_') + '\n')
 
