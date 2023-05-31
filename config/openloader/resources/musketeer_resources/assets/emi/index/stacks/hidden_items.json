@@ -289,7 +289,6 @@
         "item:minecraft:potion{Potion:\"quark:strong_resilience\"}",
         "item:minecraft:potion{Potion:\"windswept:long_thorns\"}",
         "item:minecraft:potion{Potion:\"windswept:strong_thorns\"}",
-        "item:minecraft:blaze_rod",
         "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:protection\",lvl:1s}]}",
         "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:protection\",lvl:2s}]}",
         "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:protection\",lvl:3s}]}",

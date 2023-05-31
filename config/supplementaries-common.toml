@@ -2,19 +2,19 @@
 [redstone]
 	wind_vane = true
 	clock_block = true
-	redstone_illuminator = true
+	redstone_illuminator = false
 	crank = true
-	faucet = true
-	cog_block = true
+	faucet = false
+	cog_block = false
 	gold_door = true
 	gold_trapdoor = true
-	lock_block = true
+	lock_block = false
 	dispenser_minecart = true
-	crystal_display = true
-	relayer = true
+	crystal_display = false
+	relayer = false
 
 	[redstone.speaker_block]
-		enabled = true
+		enabled = false
 		#Enable/disable speaker block narrator mode
 		narrator_enabled = true
 		#Maximum block range
@@ -22,7 +22,7 @@
 		range = 64
 
 	[redstone.bellows]
-		enabled = true
+		enabled = false
 		#bellows pushes air following this equation: 
 		#air=(sin(2PI*ticks/period)<0), with period = base_period-(redstone_power-1)*power_scaling 
 		#represents base period at 1 power
@@ -73,12 +73,12 @@
 		mineshaft_elevator = 0.02
 
 [functional]
-	fodder = true
-	hourglass = true
+	fodder = false
+	hourglass = false
 
 	[functional.present]
 		enabled = true
-		trapped_present = true
+		trapped_present = false
 
 	[functional.rope]
 		enabled = true
@@ -90,7 +90,7 @@
 		rope_override = "supplementaries:rope"
 
 	[functional.jar]
-		enabled = true
+		enabled = false
 		#Jar liquid capacity: leave at 12 for pixel accuracy
 		#Range: 0 ~ 1024
 		capacity = 12
@@ -109,7 +109,7 @@
 		jar_liquids = true
 
 	[functional.cage]
-		enabled = true
+		enabled = false
 		#Allows all entities to be captured by cages and jars. Not meant for survival
 		allow_all_mobs = false
 		#Allows all baby mobs to be captured by cages
@@ -123,7 +123,7 @@
 		health_threshold = 100
 
 	[functional.safe]
-		enabled = true
+		enabled = false
 		#Makes safes only breakable by their owner or by a player in creative
 		prevent_breaking = false
 		#Make safes simpler so they do not require keys:
@@ -131,7 +131,7 @@
 		simple_safes = false
 
 	[functional.sack]
-		enabled = true
+		enabled = false
 		#Penalize the player with slowness effect when carrying too many sacks
 		sack_penalty = true
 		#Maximum number of sacks after which the overencumbered effect will be applied. Each multiple of this number will increase the effect strength by one
@@ -142,15 +142,15 @@
 		slots = 9
 
 	[functional.bamboo_spikes]
-		enabled = true
-		tipped_spikes = true
+		enabled = false
+		tipped_spikes = false
 		#Allows entities killed by spikes to drop loot as if they were killed by a player
 		player_loot = false
 		#Alternative mode for bamboo spikes. Allows only harmful effects to be applied on them and they obtain infinite durability
 		only_allow_harmful_effects = true
 
 	[functional.urn]
-		enabled = true
+		enabled = false
 		#Chance for an urn to spawn a critter from the urn_spawn tag
 		#Range: 0.0 ~ 1.0
 		critter_spawn_chance = 0.009999999776482582
@@ -165,7 +165,7 @@
 			spawn_attempts = 7
 
 	[functional.soap]
-		enabled = true
+		enabled = false
 		#Dyed Bock types that cannot be cleaned with soap
 		clean_blacklist = ["minecraft:glazed_terracotta"]
 
@@ -183,35 +183,35 @@
 
 [building]
 	daub = true
-	ash_bricks = true
+	ash_bricks = false
 	lapis_bricks = true
-	deepslate_lamp = true
-	end_stone_lamp = true
-	blackstone_lamp = true
-	stone_lamp = true
+	deepslate_lamp = false
+	end_stone_lamp = false
+	blackstone_lamp = false
+	stone_lamp = false
 	stone_tile = true
 	blackstone_tile = true
 	sconce = true
 	sconce_lever = true
 	sconce_green = false
-	pancake = true
-	netherite_door = true
-	netherite_trapdoor = true
-	silver_door = true
-	silver_trapdoor = true
-	lead_door = true
-	lead_trapdoor = true
+	pancake = false
+	netherite_door = false
+	netherite_trapdoor = false
+	silver_door = false
+	silver_trapdoor = false
+	lead_door = false
+	lead_trapdoor = false
 	hanging_sign = true
 	crimson_lantern = true
 	copper_lantern = true
-	checker_block = true
+	checker_block = false
 	raked_gravel = true
-	feather_block = true
-	statue = true
-	flower_box = true
-	doormat = true
+	feather_block = false
+	statue = false
+	flower_box = false
+	doormat = false
 	flint_block = true
-	candle_holder = true
+	candle_holder = false
 
 	[building.blackboard]
 		enabled = true
@@ -222,7 +222,7 @@
 		interaction_mode = "BOTH"
 
 	[building.timber_frame]
-		enabled = true
+		enabled = false
 		#Allow placing a timber frame directly on a block by holding shift
 		swap_on_shift = false
 		#Allows axes to remove a framed block leaving the contained block intact
@@ -238,7 +238,7 @@
 		door-like_gates = false
 
 	[building.item_shelf]
-		enabled = true
+		enabled = false
 		#Makes item shelves climbable
 		climbable_shelves = false
 
@@ -265,7 +265,7 @@
 		crystal_enchanting = 3
 
 	[building.ash]
-		enabled = true
+		enabled = false
 		#Burnable blocks will have a chance to create ash layers when burned
 		ash_from_fire = true
 		#Allows rain to wash away ash layers overtime
@@ -289,13 +289,13 @@
 		pole_length = 16
 
 	[building.goblet]
-		enabled = true
+		enabled = false
 		#Allows drinking from goblets
 		allow_drinking = true
 
 	[building.globe]
-		enabled = true
-		sepia_globe = true
+		enabled = false
+		sepia_globe = false
 		#How many globe trades to give to the wandering trader. This will effectively increase the chance of him having a globe trader. Increase this if you have other mods that add stuff to that trader
 		#Range: 0 ~ 50
 		chance = 2
@@ -310,12 +310,12 @@
 			show_distance_text = true
 
 [tools]
-	antique_ink = true
-	candy = true
-	stasis = true
+	antique_ink = false
+	candy = false
+	stasis = false
 
 	[tools.quiver]
-		enabled = true
+		enabled = false
 		#Allows using a quiver without being slowed down
 		use_without_slow = true
 		#Arrow stacks that can fit inside a quiver. Requires reboot
@@ -330,7 +330,7 @@
 		quiver_pickup = true
 
 	[tools.bubble_blower]
-		enabled = true
+		enabled = false
 		#Amount of soap consumed per bubble block placed
 		#Range: 1 ~ 25
 		stasis_cost = 5
@@ -351,7 +351,7 @@
 		bypass_when_on = "MAIN_HAND"
 
 	[tools.rope_arrow]
-		enabled = true
+		enabled = false
 		#Max number of robe items allowed to be stored inside a rope arrow
 		#Range: 1 ~ 256
 		capacity = 32
@@ -359,7 +359,7 @@
 		exclusive_to_crossbows = false
 
 	[tools.flute]
-		enabled = true
+		enabled = false
 		#Radius in which an unbound flute will search pets
 		#Range: 0 ~ 500
 		unbound_radius = 64
@@ -368,7 +368,7 @@
 		bound_distance = 64
 
 	[tools.bomb]
-		enabled = true
+		enabled = false
 		#Bomb explosion radius (damage depends on this)
 		#Range: 0.1 ~ 10.0
 		explosion_radius = 2.0
@@ -388,7 +388,7 @@
 			break_blocks = "WEAK"
 
 	[tools.slingshot]
-		enabled = true
+		enabled = false
 		#Slingshot range multiplier. Affect the initial projectile speed
 		#Range: 0.0 ~ 5.0
 		range_multiplier = 1.0
@@ -422,7 +422,7 @@
 
 	[tweaks.shulker_helmet]
 		#Allows wearing shulker shells
-		enabled = true
+		enabled = false
 
 	[tweaks.traders_open_doors]
 		#Allows traders to open doors (because they couldnt aparently)
@@ -478,7 +478,7 @@
 		#Allow placeable sticks
 		sticks = true
 		#Allow placeable blaze rods
-		blaze_rods = true
+		blaze_rods = false
 
 	[tweaks.placeable_gunpowder]
 		#Allow placeable gunpowder
@@ -504,11 +504,11 @@
 	[tweaks.map_tweaks]
 		#Cartographers will sell 'adventurer maps' that will lead to a random vanilla structure (choosen from a thought out preset list).
 		#Best kept disabled if you are adding custom adventurer maps with datapack (check the wiki for more)
-		random_adventurer_maps = true
+		random_adventurer_maps = false
 		#Enables beacons, lodestones, respawn anchors, beds, conduits, portals to be displayed on maps by clicking one of them with a map
 		block_map_markers = true
 		#If Quark is installed adventurer maps will be replaced by adventurer quills. These will not lag the server when generating
-		quill_adventurer_maps = true
+		quill_adventurer_maps = false
 		#If Quark is installed replaces buried treasure and mansion maps with their equivalent quill form. This removes the lag spike they create when generating
 		quill_vanilla_maps = true
 		#These maps will roll a difference structure every time. Increase their price to balance them
@@ -536,7 +536,7 @@
 
 	[tweaks.zombie_horse]
 		#Feed a stack of rotten flesh to a skeleton horse to buff him up to a zombie horse
-		zombie_horse_conversion = true
+		zombie_horse_conversion = false
 		#Amount of rotten flesh needed
 		#Range: 1 ~ 1000
 		rotten_flesh = 64
