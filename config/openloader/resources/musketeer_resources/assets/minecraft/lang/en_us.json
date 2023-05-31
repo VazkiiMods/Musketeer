@@ -25,5 +25,13 @@
 	"block.minecraft.red_nether_brick_wall": "Crimson Nether Brick Wall",
 
 	"item.minecraft.blaze_rod": "Monster Mash",
-	"item.minecraft.blaze_powder": "Magma Powder"
+	"item.minecraft.blaze_powder": "Magma Powder",
+
+	"block.minecraft.wither_skeleton_wall_skull": "Forgotten Wall Skull",
+	"block.minecraft.wither_skeleton_skull": "Forgotten Skull",
+	"advancements.nether.get_wither_skull.description": "Obtain a Forgotten's skull",
+	"advancements.nether.obtain_blaze_rod.title": "A Graveyard Smash",
+	"advancements.nether.obtain_blaze_rod.description": "Do some Monster Mash",
+
+	"block.minecraft.end_rod": "Purpur Rod"
 }
