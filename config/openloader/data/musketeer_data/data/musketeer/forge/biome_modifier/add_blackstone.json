@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": "musketeer:ore_blackstone_lower",
+  "step": "underground_ores"
+}

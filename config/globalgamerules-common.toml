@@ -20,7 +20,7 @@
 	#Whether phantoms can spawn in the nighttime
 	do_insomnia = false
 	#Whether players should be able to craft only those recipes that they've unlocked first
-	do_limited_crafting = true
+	do_limited_crafting = false
 	#Whether mobs should drop items and experience orbs
 	do_mob_loot = true
 	#Whether mobs should naturally spawn. Does not affect monster spawners
