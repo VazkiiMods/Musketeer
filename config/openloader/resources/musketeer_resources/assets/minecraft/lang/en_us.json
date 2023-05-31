@@ -35,5 +35,8 @@
 
 	"block.minecraft.end_rod": "Purpur Rod",
 
-	"item.minecraft.glowstone_dust": "Glow Dust"
+	"item.minecraft.glowstone_dust": "Glow Dust",
+
+	"advancements.story.enter_the_nether.title": "We Can't Go Deeper",
+	"advancements.story.enter_the_nether.description": "Build, light, and... fail to enter a Nether Portal?"
 }
