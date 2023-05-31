@@ -43,7 +43,7 @@ def transpose_emi_data():
 
 	tag_out_data = {
 		"replace": False,
-		"values": hidden_stacks
+		"values": tag_stacks
 	}
 
 	hidden_out_data = {
