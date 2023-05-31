@@ -3,7 +3,7 @@ import json, re
 emi_file = '../emi.json'
 tag_file = '../config/openloader/data/musketeer_data/data/musketeer/tags/items/hidden_items.json'
 hidden_file = '../config/openloader/resources/musketeer_resources/assets/emi/index/stacks/hidden_items.json'
-item_id_regex = 'item:([a-z1-9_]+\:[a-z1-9_/]+)(?:{.+})?'
+item_id_regex = '^item:([a-z1-9_]+\:[a-z1-9_/]+)$'
 
 # ############################################################ CONFIG ############################################################
 
@@ -24,7 +24,9 @@ def transpose_emi_data():
 			match = re.search(item_id_regex, s)
 			if match:
 				group = match.group(1)
-				tag_stacks.append(group)
+
+				if not '_spawn_egg' in group:
+					tag_stacks.append(group)
 
 	with open(tag_file, 'r', encoding='utf-8') as f:
 		data = json.load(f)
