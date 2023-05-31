@@ -33,5 +33,7 @@
 	"advancements.nether.obtain_blaze_rod.title": "A Graveyard Smash",
 	"advancements.nether.obtain_blaze_rod.description": "Do some Monster Mash",
 
-	"block.minecraft.end_rod": "Purpur Rod"
+	"block.minecraft.end_rod": "Purpur Rod",
+
+	"item.minecraft.glowstone_dust": "Glow Dust"
 }
