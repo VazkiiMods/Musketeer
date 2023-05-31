@@ -1,0 +1,72 @@
+{
+	"aliases": [
+		{
+			"stacks": "item:minecraft:netherite_block",
+			"text": "Block of Netherite"
+		},
+		{
+			"stacks": "item:minecraft:netherite_scrap",
+			"text": "Netherite Scrap"
+		},
+		{
+			"stacks": "item:minecraft:netherite_ingot",
+			"text": "Netherite Ingot"
+		},
+		{
+			"stacks": "item:minecraft:netherite_helmet",
+			"text": "Netherite Helmet"
+		},
+		{
+			"stacks": "item:minecraft:netherite_chestplate",
+			"text": "Netherite Chestplate"
+		},
+		{
+			"stacks": "item:minecraft:netherite_leggings",
+			"text": "Netherite Leggings"
+		},
+		{
+			"stacks": "item:minecraft:netherite_boots",
+			"text": "Netherite Boots"
+		},
+		{
+			"stacks": "item:minecraft:netherite_axe",
+			"text": "Netherite Axe"
+		},
+		{
+			"stacks": "item:minecraft:netherite_pickaxe",
+			"text": "Netherite Pickaxe"
+		},
+		{
+			"stacks": "item:minecraft:netherite_hoe",
+			"text": "Netherite Hoe"
+		},
+		{
+			"stacks": "item:minecraft:netherite_shovel",
+			"text": "Netherite Shovel"
+		},
+		{
+			"stacks": "item:minecraft:netherite_sword",
+			"text": "Netherite Sword"
+		},	
+		{
+			"stacks": "item:minecraft:ender_eye",
+			"text": "Eye of Ender"
+		},
+		{
+			"stacks": "item:minecraft:blaze_powder",
+			"text": "Blaze Powder"
+		},
+		{
+			"stacks": "item:minecraft:wither_skeleton_skull",
+			"text": "Wither Skeleton Skull"
+		},
+		{
+			"stacks": "item:minecraft:end_rod",
+			"text": "End Rod"
+		},
+		{
+			"stacks": "item:minecraft:glowstone_dust",
+			"text": "Glowstone Dust"
+		}
+	]
+}
