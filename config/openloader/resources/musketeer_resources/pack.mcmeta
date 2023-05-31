@@ -1,6 +1,6 @@
 {
   "pack": {
-    "pack_format": 8,
-	"description": "Resources required for the Musketeer modpack."
+    "pack_format": 9,
+    "description": "Resources required for the Musketeer modpack."
   }
 }

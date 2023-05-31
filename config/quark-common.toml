@@ -115,8 +115,8 @@
 	Thatch = true
 	"Sturdy Stone" = true
 	Stools = true
-	"Soul Sandstone" = true
-	Shingles = true
+	"Soul Sandstone" = false
+	Shingles = false
 	"Shear Vines" = true
 	Rope = true
 	"Raw Metal Bricks" = true
@@ -430,7 +430,7 @@
 		"Multi Threaded" = true
 		"Search Radius" = 6400
 		"Xp From Trade" = 5
-		"Add To Cartographer" = false
+		"Add To Cartographer" = true
 		"Add To Wandering Trader Forced" = true
 		"Add To Wandering Trader Generic" = false
 		"Add To Wandering Trader Rare" = false
@@ -1738,7 +1738,7 @@
 	[oddities.backpack]
 		#Set this to true to allow the backpacks to be unequipped even with items in them
 		"Super Op Mode" = false
-		"Enable Ravager Hide" = true
+		"Enable Ravager Hide" = false
 		"Items In Backpack Tick" = true
 		"Base Ravager Hide Drop" = 1
 		"Extra Chance Per Looting" = 0.5

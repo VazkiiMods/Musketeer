@@ -24,9 +24,9 @@
 	// Exhaustion gained per wall jump.
 	"exhaustionWallJump": 0.8,
 	// Allows you to jump in mid-air
-	"enableDoubleJump": true,
+	"enableDoubleJump": false,
 	// The rarity for Double Jump Enchant, i.e. how often it appears in enchanting table, etc.
-	"enableDoubleJumpEnchantment": false,
+	"enableDoubleJumpEnchantment": true,
 	// If you disable Wall Jump, it enables the enchantment automagically, this option disables the enchantment.
 	"doubleJumpEnchantmentRarity": "RARE",
 	// Changes the Jump Count for Double Jump so you can instead have a Triple Jump or even a Quadruple Jump.
