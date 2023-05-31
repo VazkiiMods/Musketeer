@@ -1,6 +1,10 @@
 {
     "replace": false,
     "values": [
+        "minecraft:nether_quartz_ore",
+        "minecraft:nether_gold_ore",
+        "minecraft:totem_of_undying",
+        "minecraft:warped_fungus_on_a_stick",
         "minecraft:dragon_head",
         "minecraft:wither_rose",
         "quark:soul_sandstone_bricks_slab",

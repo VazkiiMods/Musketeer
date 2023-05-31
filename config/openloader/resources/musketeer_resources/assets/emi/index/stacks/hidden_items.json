@@ -1,6 +1,10 @@
 {
     "added": [],
     "removed": [
+        "item:minecraft:nether_quartz_ore",
+        "item:minecraft:nether_gold_ore",
+        "item:minecraft:totem_of_undying",
+        "item:minecraft:warped_fungus_on_a_stick",
         "item:minecraft:dragon_head",
         "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"walljump:doublejump\",lvl:1s}]}",
         "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"walljump:doublejump\",lvl:2s}]}",

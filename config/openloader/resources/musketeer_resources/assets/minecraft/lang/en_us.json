@@ -1,0 +1,29 @@
+{
+	"block.minecraft.netherite_block": "Block of Ancient Alloy",
+	"item.minecraft.netherite_scrap": "Ancient Scrap",
+	"item.minecraft.netherite_ingot": "Ancient Alloy Ingot",
+	"item.minecraft.netherite_helmet": "Ancient Helmet",
+	"item.minecraft.netherite_chestplate": "Ancient Chestplate",
+	"item.minecraft.netherite_leggings": "Ancient Leggings",
+	"item.minecraft.netherite_boots": "Ancient Boots",
+	"item.minecraft.netherite_axe": "Ancient Axe",
+	"item.minecraft.netherite_pickaxe": "Ancient Pickaxe",
+	"item.minecraft.netherite_hoe": "Ancient Hoe",
+	"item.minecraft.netherite_shovel": "Ancient Shovel",
+	"item.minecraft.netherite_sword": "Ancient Sword",
+	"subtitles.item.armor.equip_netherite": "Ancient armor clanks",
+	"advancements.husbandry.netherite_hoe.description": "Use an Ancient Alloy Ingot to upgrade a Hoe, and then reevaluate your life choices",
+	"advancements.nether.netherite_armor.description": "Get a full suit of Ancient armor",
+
+	"item.minecraft.ender_eye": "Eye of the Ancients",
+	"entity.minecraft.eye_of_ender": "Eye of the Ancients",
+
+	"block.minecraft.nether_wart_block": "Crimson Wart Block",
+	"block.minecraft.red_nether_bricks": "Crimson Nether Bricks",
+	"block.minecraft.red_nether_brick_stairs": "Crimson Nether Brick Stairs",
+	"block.minecraft.red_nether_brick_slab": "Crimson Nether Brick Slab",
+	"block.minecraft.red_nether_brick_wall": "Crimson Nether Brick Wall",
+
+	"item.minecraft.blaze_rod": "Monster Mash",
+	"item.minecraft.blaze_powder": "Magma Powder"
+}
