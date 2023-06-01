@@ -1,0 +1,48 @@
+{
+	"aliases": [
+		{
+			"stacks": [
+				"item:comforts:sleeping_bag_white",
+				"item:minecraft:lodestone",
+				"item:minecraft:bundle",
+				"item:minecraft:ender_eye",
+				"item:minecraft:netherrack",
+				"item:minecraft:ancient_debris",
+				"item:minecraft:crimson_fungus",
+				"item:minecraft:warped_fungus",
+				"item:minecraft:wither_skeleton_skull",
+				"item:minecraft:blaze_powder",
+				"item:minecraft:magma_cream",
+				"item:minecraft:brewing_stand",
+				"item:minecraft:powered_rail",
+				"item:minecraft:rail",
+				"item:moreminecarts:lightspeed_rail",
+				"item:moreminecarts:lightspeed_powered_rail",
+				"item:minecraft:glowstone_dust",
+				"item:quark:diamond_heart",
+				"item:minecraft:emerald",
+				"item:minecraft:iron_ingot",
+				"item:minecraft:leather_horse_armor",
+				"item:clayworks:kiln",
+				"item:woodworks:sawmill",
+				"item:chalk:white_chalk{Damage:0}",
+				"item:quark:trowel",
+				"item:quark:torch_arrow",
+				"item:quark:slime_in_a_bucket",
+				"item:quark:abacus",
+				"item:quark:backpack{Inventory:[{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}]}",
+				"item:supplementaries:wrench{Damage:0}"
+			],
+			"text": [
+				"Musketeer's Tools",
+				"Starter Kit",
+				"101",
+				"Introduction",
+				"Beginner's Guide",
+				"Tutorial",
+				"Help",
+				"What To Do"
+			]
+		}
+	]
+}
