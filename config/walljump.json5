@@ -38,7 +38,7 @@
 	// Play a rush of wind as you fall to your doom.
 	"playFallingSound": true,
 	// Minimum distance for fall damage sound to play; set to 3.0 to disable.
-	"minFallDistance": 7.5,
+	"minFallDistance": 3.0,
 	// Elytra speed boost; set to 0.0 to disable.
 	"elytraSpeedBoost": 0.0,
 	// Sprint speed boost; set to 0.0 to disable.
