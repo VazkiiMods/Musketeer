@@ -1,0 +1,15 @@
+
+[creeperheal]
+	#If the healing will replace blocks that were put in after (such as fallen gravel or placed blocks)
+	OverrideBlocks = true
+	#A lower number means it will start healing faster
+	#Range: 1 ~ 600000
+	TickStartDelay = 600
+	#If this is true (and we are not overriding blocks), and a block tries to get healed but something is in the way, then that block will drop as an itemstack on the ground
+	DropBlockConflict = true
+	#If this is true, only creeper explosions are healed.  Otherwise, all explosions will be healed (TNT, stuff from other mods, etc)
+	OnlyCreepers = true
+	#Determines the random nature of the heal.  Time between in ticks is the minimum + rand(1,this)
+	#Range: 1 ~ 600000
+	TickRandomInterval = 1200
+
