@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "overworld_quartz_ore:block/deepslate_quartz_ore",
+    "end": "deepslateorefix:block/deepslate_quartz_ore_top"
+  }
+}
