@@ -1,43 +1,44 @@
 var air = <item:minecraft:air>;
+var activator_rail = <item:minecraft:activator_rail>;
 var amethyst_shard = <item:minecraft:amethyst_shard>;
 var blackstone = <item:minecraft:blackstone>;
+var brewing_stand = <item:minecraft:brewing_stand>;
 var chiseled_stone_bricks = <item:minecraft:chiseled_stone_bricks>;
+var copper_ingot = <item:minecraft:copper_ingot>;
+var crimson_fungus = <item:minecraft:crimson_fungus>;
+var crimson_nylium = <item:minecraft:crimson_nylium>;
+var detector_rail = <item:minecraft:detector_rail>;
+var end_rod = <item:minecraft:end_rod>;
+var ender_eye = <item:minecraft:ender_eye>;
+var ender_pearl = <item:minecraft:ender_pearl>;
 var gilded_blackstone = <item:minecraft:gilded_blackstone>;
+var glow_berries = <item:minecraft:glow_berries>;
+var glowstone_dust = <item:minecraft:glowstone_dust>;
 var gold_nugget = <item:minecraft:gold_nugget>;
 var iron_nugget = <item:minecraft:iron_nugget>;
 var lodestone = <item:minecraft:lodestone>;
-var rail = <item:minecraft:rail>;
-var stick = <item:minecraft:stick>;
-var powered_rail = <item:minecraft:powered_rail>;
-var redstone = <item:minecraft:redstone>;
-var copper_ingot = <item:minecraft:copper_ingot>;
-var detector_rail = <item:minecraft:detector_rail>;
-var stone_pressure_plate = <item:minecraft:stone_pressure_plate>;
-var activator_rail = <item:minecraft:activator_rail>;
-var redstone_torch = <item:minecraft:redstone_torch>;
-var crimson_fungus = <item:minecraft:crimson_fungus>;
-var warped_fungus = <item:minecraft:warped_fungus>;
-var crimson_nylium = <item:minecraft:crimson_nylium>;
-var warped_nylium = <item:minecraft:warped_nylium>;
-var netherrack = <item:minecraft:netherrack>;
-var ender_pearl = <item:minecraft:ender_pearl>;
+var magma_cream = <item:minecraft:magma_cream>;
 var monster_mash = <item:minecraft:blaze_rod>;
-var ender_eye = <item:minecraft:ender_eye>;
-var soul_sand = <item:minecraft:soul_sand>;
-var soul_soil = <item:minecraft:soul_soil>;
-var sands = <tag:items:minecraft:sand>;
-var glowstone_dust = <item:minecraft:glowstone_dust>;
-var glow_berries = <item:minecraft:glow_berries>;
-var brewing_stand = <item:minecraft:brewing_stand>;
-var end_rod = <item:minecraft:end_rod>;
-var stone_tool_material = <tag:items:minecraft:stone_tool_materials>;
-var purpur_block = <item:minecraft:purpur_block>;
 var myalite = <item:quark:myalite>;
 var nether_brick = <item:minecraft:nether_brick>;
-var nether_bricks = <item:minecraft:nether_bricks>;
 var nether_brick_fence = <item:minecraft:nether_brick_fence>;
 var nether_brick_fence_gate = <item:quark:nether_brick_fence_gate>;
 var nether_brick_slab = <item:minecraft:nether_brick_slab>;
+var nether_bricks = <item:minecraft:nether_bricks>;
+var netherrack = <item:minecraft:netherrack>;
+var powered_rail = <item:minecraft:powered_rail>;
+var purpur_block = <item:minecraft:purpur_block>;
+var rail = <item:minecraft:rail>;
+var redstone = <item:minecraft:redstone>;
+var redstone_torch = <item:minecraft:redstone_torch>;
+var sands = <tag:items:minecraft:sand>;
+var soul_sand = <item:minecraft:soul_sand>;
+var soul_soil = <item:minecraft:soul_soil>;
+var stick = <item:minecraft:stick>;
+var stone_pressure_plate = <item:minecraft:stone_pressure_plate>;
+var stone_tool_material = <tag:items:minecraft:stone_tool_materials>;
+var warped_fungus = <item:minecraft:warped_fungus>;
+var warped_nylium = <item:minecraft:warped_nylium>;
 
 // Lodestone but good
 craftingTable.remove(lodestone);
@@ -128,3 +129,6 @@ craftingTable.addShaped("nether_brick_fence_gate_brickless",
 		nether_brick_fence_gate, 
 		[[nether_brick_slab, nether_bricks, nether_brick_slab],
 		[nether_brick_slab, nether_bricks, nether_brick_slab]]);
+
+// Remove Magma Cream recipe to prevent looping with magma powder
+craftingTable.remove(magma_cream);

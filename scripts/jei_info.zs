@@ -24,5 +24,5 @@ i(<item:moreminecarts:lightspeed_powered_rail>, "Can boost Minecarts to incredib
 i(<item:moreminecarts:lightspeed_rail>, "Can support much faster Minecart speeds, but can't turn. Use Turbo Rails to achieve these speeds.");
 i(<item:quark:diamond_heart>, "Can be used to brew Potions of Regeneration.");
 i(<item:quark:myalite>, "Now spawns deep underground.");
-i(<item:supplementaries:cactus>, "Smelting XP has been updated to 0.1 instead of vanilla's 1.0.");
+i(<item:minecraft:cactus>, "Smelting XP has been updated to 0.1 instead of vanilla's 1.0.");
 i(<item:supplementaries:wrench>, "Will rotate any block it's used on.");
