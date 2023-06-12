@@ -80,7 +80,7 @@ customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   orientation = element
   orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
-  x = 0
+  x = -48
   action = movebutton
   y = 24
 }
@@ -115,10 +115,10 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   orientation = element
-  orientation_element = vanillabtn:400346
-  x = -94
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = 19
   action = movebutton
-  y = 24
+  y = 48
 }
 
 customization {
@@ -176,7 +176,7 @@ customization {
   identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   orientation = element
   orientation_element = vanillabtn:400322
-  x = 0
+  x = 47
   action = movebutton
   y = 24
 }
@@ -286,8 +286,8 @@ customization {
   orientation = top-centered
   shape = rectangle
   color = #00000033
-  x = -129
-  width = 259
+  x = -159
+  width = 306
   action = addshape
   actionid = 27dcdb9c-d4f9-4eea-9833-9618e9589fac1650334092806
   y = 0
@@ -303,7 +303,7 @@ customization {
   label = 
   loopbackgroundanimations = true
   orientation_element = cef5e269-6b49-432b-b9e3-a7f5ef0adf681650334908456
-  x = 25
+  x = 26
   width = 20
   action = addbutton
   actionid = 729b8a7d-e4b9-4407-bea9-9e862d28f4fd1650334663251
@@ -370,7 +370,7 @@ customization {
   loopbackgroundanimations = true
   hoverlabel = 
   orientation_element = b229105b-fcc0-43b3-9c52-ae1e51c955961650334901634
-  x = 64
+  x = 24
   width = 20
   action = addbutton
   actionid = 268f64dd-5b5b-436e-93b1-995db90192cd1650940749718
@@ -393,7 +393,7 @@ customization {
 customization {
   path = fancymenu_setups/_images/logo.png
   orientation = top-centered
-  x = -90
+  x = -89
   width = 170
   action = addtexture
   actionid = 4116190c-1c9e-4188-a941-95e35dbebb001684624149903
@@ -421,5 +421,23 @@ customization {
   y = 78
   delayappearance = true
   delayappearanceeverytime = false
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = opengui;tutorial%btnaction_splitter_fm%
+  backgroundhovered = fancymenu_setups/_images/btn_tutorial_hover.png
+  label = Tutorial
+  loopbackgroundanimations = true
+  hoverlabel = Tutorial
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_options_button
+  x = 94
+  width = 90
+  action = addbutton
+  actionid = 26840d08-ca8a-42c7-a3b1-426f996af5a21686592101865
+  y = 0
+  backgroundnormal = fancymenu_setups/_images/btn_tutorial.png
+  height = 20
 }
 

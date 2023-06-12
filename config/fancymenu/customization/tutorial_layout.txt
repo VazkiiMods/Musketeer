@@ -1,0 +1,48 @@
+type = menu
+
+customization-meta {
+  identifier = tutorial
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = fancymenu_setups/_images/loading.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = fancymenu_setups/_images/tutorial.png
+  orientation = mid-centered
+  x = -123
+  width = 240
+  action = addtexture
+  actionid = a42bf591-d889-4be1-9a85-b53e902f5b141686592911179
+  y = -59
+  height = 100
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = closegui%btnaction_splitter_fm%
+  backgroundhovered = fancymenu_setups/_images/btn200_hover.png
+  label = Got it!
+  loopbackgroundanimations = true
+  hoverlabel = Got it!
+  x = -100
+  width = 200
+  action = addbutton
+  actionid = f1b20358-215d-4547-b5e1-41d3bd36b9991686592960698
+  y = 52
+  backgroundnormal = fancymenu_setups/_images/btn200.png
+  height = 20
+}
+
