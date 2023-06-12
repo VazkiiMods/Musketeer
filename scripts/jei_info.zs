@@ -12,7 +12,7 @@ i(<item:minecraft:blackstone>, "Now spawns deep underground.");
 i(<item:minecraft:blaze_powder>, "Formerly Blaze Powder. Same purpose, different recipe.");
 i(<item:minecraft:brewing_stand>, "Nether Wart is removed, use Glow Berries to start the brewing process instead.");
 i(<item:minecraft:crimson_fungus>, "One is guaranteed in every Ruined Nether Portal chest.");
-i(<item:minecraft:emerald>, "Villagers will now require proper lodging to access reasonable prices, to prevent trading hall abduction. Healing a villager from Zombification multiple times will also not continuanlly lower prices.");
+i(<item:minecraft:emerald>, "Villagers will now require proper lodging to access better prices, try building a nice village instead of abducting them into a trading hall. Healing a villager from Zombification multiple times will also not continuanlly lower prices.");
 i(<item:minecraft:ender_eye>, "Formerly Eye of Ender - now finds Ancient Cities.");
 i(<item:minecraft:glowstone_dust>, "Formerly Glowstone Dust - Same purpose, different recipe.");
 i(<item:minecraft:iron_ingot>, "Iron Golems no longer drop Iron Ingots, try Toretoises instaed.");
