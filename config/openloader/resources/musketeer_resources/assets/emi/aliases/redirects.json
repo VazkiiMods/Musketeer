@@ -32,7 +32,8 @@
 				"item:quark:slime_in_a_bucket",
 				"item:quark:abacus",
 				"item:quark:backpack{Inventory:[{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}]}",
-				"item:supplementaries:wrench{Damage:0}"
+				"item:supplementaries:wrench{Damage:0}",
+				"item:minecraft:tnt"
 			],
 			"text": [
 				"Musketeer's Tools",
