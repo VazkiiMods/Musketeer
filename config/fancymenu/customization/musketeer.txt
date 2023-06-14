@@ -25,7 +25,7 @@ customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   orientation = element
   orientation_element = vanillabtn:400298
-  x = 94
+  x = 96
   action = movebutton
   y = 0
 }
@@ -80,9 +80,9 @@ customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   orientation = element
   orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
-  x = -48
+  x = -47
   action = movebutton
-  y = 24
+  y = 27
 }
 
 customization {
@@ -116,9 +116,9 @@ customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   orientation = element
   orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
-  x = 19
+  x = 20
   action = movebutton
-  y = 48
+  y = 55
 }
 
 customization {
@@ -150,10 +150,11 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  orientation = top-centered
-  x = -97
+  orientation = element
+  orientation_element = 26840d08-ca8a-42c7-a3b1-426f996af5a21686592101865
+  x = -48
   action = movebutton
-  y = 130
+  y = -27
 }
 
 customization {
@@ -175,10 +176,10 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   orientation = element
-  orientation_element = vanillabtn:400322
-  x = 47
+  orientation_element = 26840d08-ca8a-42c7-a3b1-426f996af5a21686592101865
+  x = 95
   action = movebutton
-  y = 24
+  y = 0
 }
 
 customization {
@@ -283,18 +284,6 @@ customization {
 }
 
 customization {
-  orientation = top-centered
-  shape = rectangle
-  color = #00000033
-  x = -159
-  width = 306
-  action = addshape
-  actionid = 27dcdb9c-d4f9-4eea-9833-9618e9589fac1650334092806
-  y = 0
-  height = %guiheight%
-}
-
-customization {
   orientation = element
   restartbackgroundanimations = true
   buttonaction = openlink;https://discord.gg/vm%btnaction_splitter_fm%
@@ -392,12 +381,13 @@ customization {
 
 customization {
   path = fancymenu_setups/_images/logo.png
-  orientation = top-centered
-  x = -89
+  orientation = element
+  orientation_element = 26840d08-ca8a-42c7-a3b1-426f996af5a21686592101865
+  x = -41
   width = 170
   action = addtexture
   actionid = 4116190c-1c9e-4188-a941-95e35dbebb001684624149903
-  y = 16
+  y = -132
   height = 100
 }
 
@@ -424,19 +414,18 @@ customization {
 }
 
 customization {
-  orientation = element
+  orientation = mid-centered
   restartbackgroundanimations = true
   buttonaction = opengui;tutorial%btnaction_splitter_fm%
   backgroundhovered = fancymenu_setups/_images/btn_tutorial_hover.png
   label = Tutorial
   loopbackgroundanimations = true
   hoverlabel = Tutorial
-  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_options_button
-  x = 94
+  x = -51
   width = 90
   action = addbutton
   actionid = 26840d08-ca8a-42c7-a3b1-426f996af5a21686592101865
-  y = 0
+  y = 24
   backgroundnormal = fancymenu_setups/_images/btn_tutorial.png
   height = 20
 }
