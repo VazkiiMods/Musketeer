@@ -377,6 +377,12 @@
 			"Attack Damage" = 2
 			#How many ticks do you have to wait between using the pickarang again
 			Cooldown = 10
+			#Whether this pickarang type can act as a hoe.
+			"Can Act As Hoe" = false
+			#Whether this pickarang type can act as a shovel.
+			"Can Act As Shovel" = true
+			#Whether this pickarang type can act as an axe.
+			"Can Act As Axe" = true
 
 		[tools.pickarang.flamerang]
 			#How long it takes before the Pickarang starts returning to the player if it doesn't hit anything.
@@ -391,6 +397,12 @@
 			"Attack Damage" = 3
 			#How many ticks do you have to wait between using the pickarang again
 			Cooldown = 10
+			#Whether this pickarang type can act as a hoe.
+			"Can Act As Hoe" = false
+			#Whether this pickarang type can act as a shovel.
+			"Can Act As Shovel" = true
+			#Whether this pickarang type can act as an axe.
+			"Can Act As Axe" = true
 
 		[tools.pickarang.echorang]
 			#How long it takes before the Pickarang starts returning to the player if it doesn't hit anything.
@@ -405,6 +417,12 @@
 			"Attack Damage" = 2
 			#How many ticks do you have to wait between using the pickarang again
 			Cooldown = 10
+			#Whether this pickarang type can act as a hoe.
+			"Can Act As Hoe" = true
+			#Whether this pickarang type can act as a shovel.
+			"Can Act As Shovel" = true
+			#Whether this pickarang type can act as an axe.
+			"Can Act As Axe" = true
 
 	[tools.pathfinder_maps]
 		#In this section you can add custom Pathfinder Maps. This works for both vanilla and modded biomes.
