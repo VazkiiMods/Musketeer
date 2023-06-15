@@ -21,11 +21,11 @@ customization {
 customization {
   path = fancymenu_setups/_images/tutorial.png
   orientation = mid-centered
-  x = -123
-  width = 240
+  x = -132
+  width = 261
   action = addtexture
   actionid = a42bf591-d889-4be1-9a85-b53e902f5b141686592911179
-  y = -59
+  y = -53
   height = 100
 }
 
