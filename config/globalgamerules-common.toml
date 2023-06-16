@@ -35,7 +35,7 @@
 		natural_regeneration = true
 		#What percentage of players must sleep to skip the night.
 		#Range: > 0
-		players_sleeping_percentage = 100
+		players_sleeping_percentage = 50
 		#The number of blocks outward from the world spawn coordinates that a player spawns in when first joining a server or when dying without a personal spawnpoint. Has no effect on servers where the default game mode is Adventure.
 		#Range: > 0
 		spawn_radius = 10
@@ -76,7 +76,7 @@
 
 	[gamerules.spawning]
 		#Whether phantoms can spawn in the nighttime.
-		do_insomnia = true
+		do_insomnia = false
 		#Whether mobs should naturally spawn. Does not affect monster spawners.
 		do_mob_spawning = true
 		#Whether patrols can spawn.
@@ -91,7 +91,7 @@
 		#Range: > 0
 		max_command_chain_length = 65536
 		#Whether the debug screen shows all or reduced information; and whether the effects of F3+B (entity hitboxes) and F3+G (chunk boundaries) are shown.
-		reduced_debug_info = false
+		reduced_debug_info = true
 
 #Configs related to difficult changes
 [difficulty]
