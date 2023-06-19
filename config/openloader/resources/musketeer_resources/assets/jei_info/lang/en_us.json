@@ -19,5 +19,6 @@
     "jei_info.musketeer.lightspeed_rail": "Can support much faster Minecart speeds, but can't turn. Use Turbo Rails to achieve these speeds.",
     "jei_info.musketeer.diamond_heart": "Can be used to brew Potions of Regeneration.",
     "jei_info.musketeer.myalite": "Now spawns deep underground.",
-    "jei_info.musketeer.wrench": "Will rotate any block it's used on."
+    "jei_info.musketeer.wrench": "Will rotate any block it's used on.", 
+    "hidden_tooltip.musketeer":"Disabled by Musketeer. Please do not use."
 }
