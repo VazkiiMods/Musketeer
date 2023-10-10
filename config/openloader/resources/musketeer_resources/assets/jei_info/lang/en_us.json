@@ -20,5 +20,7 @@
     "jei_info.musketeer.diamond_heart": "Can be used to brew Potions of Regeneration.",
     "jei_info.musketeer.myalite": "Now spawns deep underground.",
     "jei_info.musketeer.wrench": "Will rotate any block it's used on.", 
+    "jei_info.musketeer.atlas": "Craft by combining a Filled Map, a Book, and a sticky item (Slimeball or Honey Bottle). Add more maps (empty or filled) through the Cartography Table. Empty maps are consumed automatically. Waypoints can be added with Banners, and a full map can be seen via right click.",
+
     "hidden_tooltip.musketeer":"Disabled by Musketeer. Please do not use."
 }

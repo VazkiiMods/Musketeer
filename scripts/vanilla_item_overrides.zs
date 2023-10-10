@@ -9,4 +9,4 @@ craftingTable.addShapeless("monster_mash", blaze_rod, [<item:minecraft:string>, 
 var blaze_powder = <item:minecraft:blaze_powder>;
 
 craftingTable.remove(blaze_powder);
-craftingTable.addShapeless("magma_powder", blaze_powder * 12, [<item:minecraft:magma_block>]);
+craftingTable.addShapeless("magma_powder", blaze_powder * 16, [<item:minecraft:magma_block>]);
