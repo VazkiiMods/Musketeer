@@ -54,7 +54,7 @@
 		fall_height_required = 5
 
 	[redstone.enderman_head]
-		enabled = true
+		enabled = false
 		#Time to increase 1 power level when being looked at
 		#Range: 0 ~ 10000
 		ticks_to_increase_power = 15

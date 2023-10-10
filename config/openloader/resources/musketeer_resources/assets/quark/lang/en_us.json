@@ -4,5 +4,7 @@
 	"block.quark.blue_nether_bricks_stairs": "Warped Nether Brick Stairs",
 	"block.quark.blue_nether_bricks_slab": "Warped Nether Brick Slab",
 	"block.quark.blue_nether_bricks_vertical_slab": "Warped Nether Brick Vertical Slab",
-	"block.quark.blue_nether_bricks_wall": "Warped Nether Brick Wall"
+	"block.quark.blue_nether_bricks_wall": "Warped Nether Brick Wall",
+	"block.quark.ender_watcher": "Watcher",
+	"advancements.quark.watcher_center.description": "Look at the center of a Watcher"
 }
