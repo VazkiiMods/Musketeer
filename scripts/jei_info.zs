@@ -27,3 +27,4 @@ i(<item:moreminecarts:lightspeed_rail>, game.localize("jei_info.musketeer.lights
 i(<item:quark:diamond_heart>, game.localize("jei_info.musketeer.diamond_heart"));
 i(<item:quark:myalite>, game.localize("jei_info.musketeer.myalite"));
 i(<item:supplementaries:wrench>, game.localize("jei_info.musketeer.wrench"));
+i(<item:map_atlases:atlas>, game.localize("jei_info.musketeer.atlas"));
