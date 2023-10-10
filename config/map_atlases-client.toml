@@ -13,7 +13,7 @@ in_hand_renderer = "NOT_LOCKED"
 	#Range: 0.0 ~ 20.0
 	scale = 1.0
 	#If 'true', the Mini-Map of the Active Map will be drawn on the HUD while the Atlas is active.
-	enabled = true
+	enabled = false
 	#How many maps to display in a single minimap. Essentially zoom. Can be a fraction
 	#Range: 0.001 ~ 100.0
 	zoom_multiplier = 1.0
@@ -67,7 +67,7 @@ in_hand_renderer = "NOT_LOCKED"
 	#Shows map separation borders
 	map_borders = true
 	#When enabled, the Atlas world map coordinates will be displayed
-	draw_coordinates = true
+	draw_coordinates = false
 	#Sets the scale of the text rendered for Coords world-map data
 	#Range: 0.0 ~ 10.0
 	coordinates_scale = 1.0
