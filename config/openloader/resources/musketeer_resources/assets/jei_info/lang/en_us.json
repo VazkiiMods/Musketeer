@@ -21,6 +21,13 @@
     "jei_info.musketeer.myalite": "Now spawns deep underground.",
     "jei_info.musketeer.wrench": "Will rotate any block it's used on.", 
     "jei_info.musketeer.atlas": "Craft by combining a Filled Map, a Book, and a sticky item (Slimeball or Honey Bottle). Add more maps (empty or filled) through the Cartography Table. Empty maps are consumed automatically. Waypoints can be added with Banners, and a full map can be seen via right click.",
+    "jei_info.musketeer.path": "When moving on a path, you go faster.",
+    "jei_info.musketeer.variants": "Slabs, Stairs, Walls, and similar blocks can not be crafted in Musketeer. Use the [R] key (rebindable) while placing the base block to select which shape to place instead.",
+    "jei_info.musketeer.hammer": "Using the Hammer on a block already placed in the world will change the block to whatever shape you have selected via the Variant Selector ([R] key, rebindable), if aplicable.",
+
+    "jei_info.musketeer.sand": "TODO",
+    "jei_info.musketeer.red_sand": "TODO",
+    "jei_info.musketeer.gravel": "TODO",
 
     "hidden_tooltip.musketeer":"Disabled by Musketeer. Please do not use."
 }

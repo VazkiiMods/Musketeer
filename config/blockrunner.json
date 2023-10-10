@@ -1,8 +1,8 @@
 {
   "#blockrunner:quick_blocks": 1.35,
-  "#blockrunner:very_quick_blocks": 1.55,
-  "#blockrunner:slow_blocks": 0.65,
-  "#blockrunner:slightly_slow_blocks": 0.85,
-  "#blockrunner:slightly_quick_blocks": 1.15,
-  "#blockrunner:very_slow_blocks": 0.45
+  "#blockrunner:very_quick_blocks": 1,
+  "#blockrunner:slow_blocks": 1,
+  "#blockrunner:slightly_slow_blocks": 1,
+  "#blockrunner:slightly_quick_blocks": 1,
+  "#blockrunner:very_slow_blocks": 1
 }

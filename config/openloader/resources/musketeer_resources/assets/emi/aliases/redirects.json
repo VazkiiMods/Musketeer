@@ -33,7 +33,11 @@
 				"item:quark:abacus",
 				"item:quark:backpack{Inventory:[{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}]}",
 				"item:supplementaries:wrench{Damage:0}",
-				"item:minecraft:tnt"
+				"item:minecraft:tnt",
+				"item:minecraft:dirt_path",
+				"item:minecraft:sand",
+				"item:minecraft:oak_slab",
+				"item:quark:hammer"
 			],
 			"text": [
 				"Musketeer's Tools",
