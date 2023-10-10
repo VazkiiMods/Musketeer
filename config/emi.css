@@ -336,6 +336,11 @@
 	back: "key.keyboard.backspace";
 
 	/**
+	 * Return to the next page in EMI after going back.
+	 */
+	forward: "key.keyboard.unknown";
+
+	/**
 	 * When on a stack with an associated recipe:
 	 * Move ingredients for a single result.
 	 */
