@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "dyeablecompasses:dyed_compass"
+    },
+    "addition": {
+        "tag": "cmt:compasses"
+    },
+    "result": {
+        "item": "dyeablecompasses:dyed_compass",
+        "count": 2
+    }
+}

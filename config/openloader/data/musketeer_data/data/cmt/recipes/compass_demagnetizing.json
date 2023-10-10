@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:campfire_cooking",
+    "ingredient": {
+        "tag": "cmt:compasses"
+    },
+    "result": "minecraft:compass",
+    "experience": 0,
+    "cookingtime": 100
+}

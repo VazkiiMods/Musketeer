@@ -151,8 +151,17 @@
           "weight": 5,
           "functions": [{
               "function": "minecraft:enchant_randomly"
-           }]
+	      }]
         }, {
+           
+          "type": "minecraft:item",
+          "name": "quark:ancient_tome",
+          "weight": 5,
+          "functions": [{
+              "function": "quark:tome_enchant"
+           }]
+	}, {
+	
 			"type": "item",
 			"name": "minecraft:music_disc_13",
 			"weight": 1

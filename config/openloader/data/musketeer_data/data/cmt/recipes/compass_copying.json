@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "minecraft:compass"
+    },
+    "addition": {
+        "tag": "cmt:compasses"
+    },
+    "result": {
+        "item": "minecraft:compass",
+        "count": 2
+    }
+}
