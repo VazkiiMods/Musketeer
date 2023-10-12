@@ -37,8 +37,8 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:5
 renderClouds:"true"
-resourcePacks:["vanilla","mod_resources","Everycomp Generated Pack","Supplementaries Generated Pack","quark:emote_resources","resources/musketeer_resources","resources/musketeer_qvro","resources/musketeer_vmct","V Slab Compat Generated Pack","resources/musketeer_dsof","resources/musketeer_vanillatweaks","builtin/glass_pane_fix_resources","builtin/default_ctm_resources"]
-incompatibleResourcePacks:["quark:emote_resources"]
+resourcePacks:["vanilla","mod_resources","Everycomp Generated Pack","Supplementaries Generated Pack","quark:emote_resources","resources/musketeer_resources","resources/musketeer_qvro","resources/musketeer_vmct","V Slab Compat Generated Pack","resources/musketeer_dsof","resources/musketeer_vanillatweaks","resources/musketeer_gpcf","resources/musketeer_ctm"]
+incompatibleResourcePacks:["quark:emote_resources","resources/musketeer_vanillatweaks"]
 lastServer:
 lang:en_us
 soundDevice:""
