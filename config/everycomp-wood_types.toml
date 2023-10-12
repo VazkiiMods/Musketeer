@@ -200,6 +200,15 @@
 			ladder = true
 			hollow_log = true
 
+		[entries.wood_type.storagedrawers]
+			full_drawers_2 = false
+			half_drawers_1 = false
+			full_drawers_4 = false
+			half_drawers_4 = false
+			trim = false
+			half_drawers_2 = false
+			full_drawers_1 = false
+
 	[entries.leaves_type]
 
 		[entries.leaves_type.quark]
