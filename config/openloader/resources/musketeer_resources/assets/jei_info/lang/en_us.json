@@ -24,6 +24,7 @@
     "jei_info.musketeer.path": "When moving on a path, you go faster.",
     "jei_info.musketeer.variants": "Slabs, Stairs, Walls, and similar blocks can not be crafted in Musketeer. Use the [R] key (rebindable) while placing the base block to select which shape to place instead.",
     "jei_info.musketeer.hammer": "Using the Hammer on a block already placed in the world will change the block to whatever shape you have selected via the Variant Selector ([R] key, rebindable), if aplicable.",
+    "jei_info.musketeer.drawers": "Can hold up to 32 stacks of any one given item. Breaking the Vault with items inside lets you carry the items in your inventory.",
 
     "jei_info.musketeer.sand": "TODO",
     "jei_info.musketeer.red_sand": "TODO",

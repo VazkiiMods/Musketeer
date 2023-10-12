@@ -34,3 +34,4 @@ i(<item:quark:diamond_heart>, game.localize("jei_info.musketeer.diamond_heart"))
 i(<item:quark:hammer>, game.localize("jei_info.musketeer.hammer"));
 i(<item:quark:myalite>, game.localize("jei_info.musketeer.myalite"));
 i(<item:supplementaries:wrench>, game.localize("jei_info.musketeer.wrench"));
+i(<item:storagedrawers:oak_full_drawers_1>, game.localize("jei_info.musketeer.drawers"));

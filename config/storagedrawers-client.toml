@@ -13,7 +13,7 @@
 
 [Integration]
 	#Enable extended data display in WAILA if present
-	enableWaila = false
+	enableWaila = true
 	#Enable extended data display in The One Probe if present
 	enableTheOneProbe = false
 

@@ -39,6 +39,9 @@ var stone_pressure_plate = <item:minecraft:stone_pressure_plate>;
 var stone_tool_material = <tag:items:minecraft:stone_tool_materials>;
 var warped_fungus = <item:minecraft:warped_fungus>;
 var warped_nylium = <item:minecraft:warped_nylium>;
+var paper = <item:minecraft:paper>;
+var black_dye = <tag:items:forge:dyes/black>;
+var map = <item:minecraft:map>;
 
 // Lodestone but good
 craftingTable.remove(lodestone);
@@ -132,3 +135,7 @@ craftingTable.addShaped("nether_brick_fence_gate_brickless",
 
 // Remove Magma Cream recipe to prevent looping with magma powder
 craftingTable.remove(magma_cream);
+
+// Easier Map
+craftingTable.remove(map);
+craftingTable.addShapeless("map_but_cheap", map, [paper, paper, paper, black_dye]);
