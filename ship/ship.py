@@ -15,7 +15,7 @@ do_modrinth = False
 book_file = ''
 
 # Files to copy to the output zips
-files_to_copy = ['config', 'defaultconfigs', 'fancymenu_setups', 'scripts']
+files_to_copy = ['config', 'defaultconfigs', 'fancymenu_setups', 'scripts', 'resourcepacks']
 
 # Files to not copy to the output zips
 blacklisted_files = [
@@ -49,7 +49,8 @@ server_blacklisted_files = [
 	'config/fancymenu',
 	'config/drippyloadingscreen',
 	'fancymenu_setups',
-	"shaderpacks"
+	'shaderpacks',
+	'resourcepacks'
 ]
 
 # Directory settings

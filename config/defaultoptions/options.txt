@@ -37,8 +37,8 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:5
 renderClouds:"true"
-resourcePacks:["vanilla","mod_resources","Everycomp Generated Pack","Supplementaries Generated Pack","quark:emote_resources","resources/musketeer_resources","resources/musketeer_qvro","resources/musketeer_vmct","V Slab Compat Generated Pack","resources/musketeer_dsof","resources/musketeer_vanillatweaks","resources/musketeer_gpcf","resources/musketeer_ctm"]
-incompatibleResourcePacks:["quark:emote_resources","resources/musketeer_vanillatweaks"]
+resourcePacks:["vanilla","mod_resources","Everycomp Generated Pack","Supplementaries Generated Pack","quark:emote_resources","resources/musketeer_resources","resources/musketeer_qvro","resources/musketeer_vmct","V Slab Compat Generated Pack","resources/musketeer_dsof","resources/musketeer_vanillatweaks","file/Modded+Connected+CTM+v1.5.zip","file/MC Connected CTM v1.3-1.19.2.zip"]
+incompatibleResourcePacks:["quark:emote_resources","resources/musketeer_vanillatweaks","file/Modded+Connected+CTM+v1.5.zip"]
 lastServer:
 lang:en_us
 soundDevice:""

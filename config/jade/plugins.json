@@ -53,5 +53,10 @@
     "coordinates": false,
     "registry_name": "OFF",
     "mod_name": false
+  },
+  "storagedrawers": {
+    "display.stacklimit": true,
+    "display.content": true,
+    "display.status": true
   }
 }
