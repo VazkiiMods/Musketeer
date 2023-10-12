@@ -1,6 +1,14 @@
 {
     "added": [],
     "removed": [
+        "item:v_slab_compat:absentbydesign/lodestone_vertical_slab",
+        "item:v_slab_compat:absentbydesign/sea_lantern_vertical_slab",
+        "item:v_slab_compat:absentbydesign/glass_vertical_slab",
+        "item:v_slab_compat:absentbydesign/sculk_vertical_slab",
+        "item:v_slab_compat:absentbydesign/pearlescent_froglight_vertical_slab",
+        "item:v_slab_compat:absentbydesign/ochre_froglight_vertical_slab",
+        "item:v_slab_compat:absentbydesign/verdant_froglight_vertical_slab",
+        "item:v_slab_compat:absentbydesign/reinforced_deepslate_vertical_slab",
         "item:everycomp:sd/windswept/chestnut_full_drawers_1",
         "item:everycomp:sd/quark/azalea_full_drawers_1",
         "item:everycomp:all_woods",
