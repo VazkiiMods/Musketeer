@@ -9,7 +9,7 @@
 	#large range, but not beyond the chunk load distance.
 	#Range: 1 ~ 75
 	controllerRange = 50
-	enableUI = true
+	enableUI = false
 	enableSidedInput = false
 	enableSidedOutput = false
 	enableItemConversion = false
