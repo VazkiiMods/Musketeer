@@ -2,6 +2,7 @@
 #Range: 0.0 ~ 10.0
 soundScalar = 1.0
 #Render atlas like normal map when in hand
+#Allowed Values: ON, NOT_LOCKED, OFF
 in_hand_renderer = "NOT_LOCKED"
 
 [minimap]
