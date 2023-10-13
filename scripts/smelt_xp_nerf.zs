@@ -1,4 +1,5 @@
 furnace.remove(<item:minecraft:green_dye>);
+<recipetype:clayworks:baking>.remove(<item:minecraft:green_dye>);
 furnace.addRecipe("green_dye_but_fixed", <item:minecraft:green_dye>, <item:minecraft:cactus>, 0.1, 200);
 
 furnace.remove(<item:quark:moss_paste>);
