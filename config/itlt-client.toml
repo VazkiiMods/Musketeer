@@ -368,7 +368,7 @@
 		customWindowTitleText = "%modpackName - %mc"
 		# 
 		# Enable this if you want to change the name of the Minecraft window.
-		enableCustomWindowTitle = true
+		enableCustomWindowTitle = false
 
 	[Display.WelcomeScreen]
 		# 

@@ -23,7 +23,8 @@ blacklisted_files = [
 	'config/jei/ingredient-list-type-sort-order.ini',
 	'config/jei/recipe-category-sort-order.ini',
 	'config/jei/bookmarks.ini',
-	'config/sodium-options.json'
+	'config/sodium-options.json',
+	'config/fancymenu/user_variables.db'
 ]
 
 # Additional files to copy to the server zip

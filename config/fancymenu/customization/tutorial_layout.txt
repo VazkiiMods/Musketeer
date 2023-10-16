@@ -46,3 +46,17 @@ customization {
   height = 20
 }
 
+customization {
+  tickeraction_0_set_variable = seen_tutorial:true
+  orientation = top-left
+  tick_delay = 0
+  is_async = false
+  x = 59
+  width = 70
+  action = custom_layout_element:fancymenu_customization_item_ticker
+  actionid = f12e110d-7276-4269-8153-4cda85e9f4311697497333625
+  y = 128
+  tick_mode = on_menu_load
+  height = 70
+}
+

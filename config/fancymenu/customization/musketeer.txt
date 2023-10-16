@@ -24,10 +24,10 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   orientation = element
-  orientation_element = vanillabtn:400298
-  x = 96
+  orientation_element = 8cdf25e5-26fe-4709-9a86-a94a395a15901697497539767
+  x = 95
   action = movebutton
-  y = 0
+  y = 3
 }
 
 customization {
@@ -52,7 +52,7 @@ customization {
   orientation_element = vanillabtn:376382
   x = 25
   action = movebutton
-  y = 0
+  y = 2
 }
 
 customization {
@@ -80,9 +80,9 @@ customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   orientation = element
   orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
-  x = -47
+  x = 0
   action = movebutton
-  y = 27
+  y = 26
 }
 
 customization {
@@ -115,10 +115,10 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   orientation = element
-  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
-  x = 20
+  orientation_element = 26840d08-ca8a-42c7-a3b1-426f996af5a21686592101865
+  x = -28
   action = movebutton
-  y = 55
+  y = 28
 }
 
 customization {
@@ -151,10 +151,10 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   orientation = element
-  orientation_element = 26840d08-ca8a-42c7-a3b1-426f996af5a21686592101865
-  x = -48
+  orientation_element = 8cdf25e5-26fe-4709-9a86-a94a395a15901697497539767
+  x = -95
   action = movebutton
-  y = -27
+  y = 3
 }
 
 customization {
@@ -176,10 +176,10 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   orientation = element
-  orientation_element = 26840d08-ca8a-42c7-a3b1-426f996af5a21686592101865
-  x = 95
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
+  x = 0
   action = movebutton
-  y = 0
+  y = 26
 }
 
 customization {
@@ -363,7 +363,7 @@ customization {
   width = 20
   action = addbutton
   actionid = 268f64dd-5b5b-436e-93b1-995db90192cd1650940749718
-  y = 0
+  y = -2
   backgroundnormal = fancymenu_setups\_images\btnclose.png
   height = 20
 }
@@ -383,11 +383,11 @@ customization {
   path = fancymenu_setups/_images/logo.png
   orientation = element
   orientation_element = 26840d08-ca8a-42c7-a3b1-426f996af5a21686592101865
-  x = -41
+  x = -43
   width = 170
   action = addtexture
   actionid = 4116190c-1c9e-4188-a941-95e35dbebb001684624149903
-  y = -132
+  y = -133
   height = 100
 }
 
@@ -397,18 +397,19 @@ customization {
   shadow = true
   delayappearanceseconds = 0.01
   splashfilepath = fancymenu_setups/splashes.txt
-  rotation = 0.0
-  scale = 1.0
+  rotation = -15.0
+  scale = 0.8
   refresh = true
   bouncing = true
   fadein = true
   vanilla-like = false
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:5c5ae9d8-f46c-4ce0-b566-ab4875d8a7761697497205333] = seen_tutorial:true
   fadeinspeed = 1.0
   orientation_element = 4116190c-1c9e-4188-a941-95e35dbebb001684624149903
-  x = 60
+  x = 110
   actionid = 75bf8952-921e-459f-82f2-aa4138b98d321685315096020
   action = addsplash
-  y = 78
+  y = 70
   delayappearance = true
   delayappearanceeverytime = false
 }
@@ -421,11 +422,92 @@ customization {
   label = Tutorial
   loopbackgroundanimations = true
   hoverlabel = Tutorial
-  x = -51
+  x = -45
   width = 90
   action = addbutton
   actionid = 26840d08-ca8a-42c7-a3b1-426f996af5a21686592101865
-  y = 24
+  y = 28
+  backgroundnormal = fancymenu_setups/_images/btn_tutorial.png
+  height = 20
+}
+
+customization {
+  orientation = element
+  basecolor = FF2B2B
+  shadow = true
+  rotation = 20.0
+  scale = 0.4
+  refresh = false
+  bouncing = true
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if_not][req_id:65c4bdd3-be24-4934-a73b-84ff327ce7aa1697497177809] = seen_tutorial:true
+  vanilla-like = false
+  orientation_element = 26840d08-ca8a-42c7-a3b1-426f996af5a21686592101865
+  x = 61
+  actionid = 320fb505-3b75-46c0-bfe3-b4b1f4ce0ee91697496945696
+  action = addsplash
+  y = 4
+  text = Open me!
+}
+
+customization {
+  orientation = element
+  basecolor = #f1f79d
+  shadow = true
+  delayappearanceseconds = 0.01
+  splashfilepath = fancymenu_setups/splashes.txt
+  rotation = -15.0
+  scale = 0.8
+  refresh = true
+  bouncing = false
+  fadein = true
+  vanilla-like = false
+  fadeinspeed = 1.0
+  orientation_element = 4116190c-1c9e-4188-a941-95e35dbebb001684624149903
+  x = 472
+  actionid = 04dcbe65-e176-4f58-be8d-eaba5d0141bf1697497055972
+  action = addsplash
+  y = 135
+  delayappearance = true
+  delayappearanceeverytime = false
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:2873582d-c4f2-4185-a10e-2e51c99117341697497194472] = seen_tutorial:true
+}
+
+customization {
+  orientation = element
+  basecolor = #f1f79d
+  shadow = true
+  delayappearanceseconds = 0.01
+  splashfilepath = fancymenu_setups/splashes.txt
+  rotation = -15.0
+  scale = 0.8
+  refresh = true
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if_not][req_id:5c5ae9d8-f46c-4ce0-b566-ab4875d8a7761697497205333] = seen_tutorial:true
+  bouncing = false
+  fadein = true
+  vanilla-like = false
+  fadeinspeed = 1.0
+  orientation_element = 4116190c-1c9e-4188-a941-95e35dbebb001684624149903
+  x = 110
+  actionid = 66c46510-c194-48f1-84ea-1badfd1f71c61697497249309
+  action = addsplash
+  y = 69
+  delayappearance = true
+  delayappearanceeverytime = false
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = join_last_world%btnaction_splitter_fm%
+  backgroundhovered = fancymenu_setups/_images/btn_tutorial_hover.png
+  label = Last World
+  loopbackgroundanimations = true
+  orientation_element = 26840d08-ca8a-42c7-a3b1-426f996af5a21686592101865
+  x = 0
+  width = 90
+  action = addbutton
+  actionid = 8cdf25e5-26fe-4709-9a86-a94a395a15901697497539767
+  y = -26
   backgroundnormal = fancymenu_setups/_images/btn_tutorial.png
   height = 20
 }
