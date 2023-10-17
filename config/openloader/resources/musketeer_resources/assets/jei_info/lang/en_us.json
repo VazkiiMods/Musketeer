@@ -1,19 +1,18 @@
 {
     "jei_info.musketeer.white_chalk": "Can be used to jot down arrows on blocks so you never lose your way. Try dyeing it too.",
-    "jei_info.musketeer.ancient_debris": "Replaces Stronghold End Portals and Ancient City 'Portals' now.",
+    "jei_info.musketeer.ancient_debris": "Replaces Stronghold End Portals and Ancient City 'Portals' now. You can also find it in Ancient City chests.",
     "jei_info.musketeer.blackstone": "Now spawns deep underground.",
     "jei_info.musketeer.blaze_powder": "Formerly Blaze Powder. Same purpose, different recipe.",
     "jei_info.musketeer.brewing_stand": "Nether Wart is removed, use Glow Berries to start the brewing process instead.",
     "jei_info.musketeer.cactus": "Smelting XP has been updated to 0.1 instead of vanilla's 1.0.",
-    "jei_info.musketeer.crimson_fungus": "One is guaranteed in every Ruined Nether Portal chest.",
     "jei_info.musketeer.emerald": "Villagers now randomly reroll their trades after they're used rather than when their profession changes. Healing a villager from Zombification multiple times will also not continuanlly lower prices, but you can get discounts by building nice houses.",
     "jei_info.musketeer.ender_eye": "Formerly Eye of Ender - now finds Ancient Cities.",
     "jei_info.musketeer.glowstone_dust": "Formerly Glowstone Dust - Same purpose, different recipe.",
     "jei_info.musketeer.iron_ingot": "Iron Golems no longer drop Iron Ingots, try Toretoises instaed.",
     "jei_info.musketeer.leather_horse_armor": "Horses now always pass on their traits positively to offspring, and will never have children with worse parameters, give breeding a try sometime!",
-    "jei_info.musketeer.netherrack": "Can be gotten by attempting to light up a portal.",
+    "jei_info.musketeer.netherrack": "Can be gotten by attempting to light up a Nether Portal.",
     "jei_info.musketeer.tnt": "TNT Duplicating Machines have been disabled.",
-    "jei_info.musketeer.warped_fungus": "One is guaranteed in every Ruined Nether Portal chest.",
+    "jei_info.musketeer.fungus": "One of each Fungus is guaranteed in every Ruined Nether Portal chest.",
     "jei_info.musketeer.wither_skeleton_skull": "Formerly Wither Skeleton Skull - Same purpose, but can be gotten by interacting with deep underground features.",
     "jei_info.musketeer.lightspeed_powered_rail": "Can boost Minecarts to incredible speeds, which only Reinforced Rails can maintain.",
     "jei_info.musketeer.lightspeed_rail": "Can support much faster Minecart speeds, but can't turn. Use Turbo Rails to achieve these speeds.",
@@ -22,13 +21,9 @@
     "jei_info.musketeer.wrench": "Will rotate any block it's used on.", 
     "jei_info.musketeer.atlas": "Craft by combining a Filled Map, a Book, and a sticky item (Slimeball or Honey Bottle). Add more maps (empty or filled) through the Cartography Table. Empty maps are consumed automatically. Waypoints can be added with Banners, and a full map can be seen via right click.",
     "jei_info.musketeer.path": "When moving on a path, you go faster.",
-    "jei_info.musketeer.variants": "Slabs, Stairs, Walls, and similar blocks can not be crafted in Musketeer. Use the [R] key (rebindable) while placing the base block to select which shape to place instead.",
     "jei_info.musketeer.hammer": "Using the Hammer on a block already placed in the world will change the block to whatever shape you have selected via the Variant Selector ([R] key, rebindable), if aplicable.",
     "jei_info.musketeer.drawers": "Can hold up to 32 stacks of any one given item. Breaking the Vault with items inside lets you carry the items in your inventory.",
-
-    "jei_info.musketeer.sand": "TODO",
-    "jei_info.musketeer.red_sand": "TODO",
-    "jei_info.musketeer.gravel": "TODO",
+    "jei_info.musketeer.dripping": "Dripstone Dripping can be used to slowly generate new Sand, Red Sand, and Gravel blocks. An empty air block is needed below the Pointed Dripstone for the blocks to show up in.",
 
     "hidden_tooltip.musketeer":"Disabled by Musketeer. Please do not use."
 }

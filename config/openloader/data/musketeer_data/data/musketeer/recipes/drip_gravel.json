@@ -1,0 +1,12 @@
+{
+    "type": "lychee:dripstone_dripping",
+    "source_block": "lava",
+    "target_block": "cobblestone",
+    "post": [
+        {
+            "type": "place",
+            "block": "minecraft:gravel",
+            "offsetY": 1
+        }
+    ]
+}

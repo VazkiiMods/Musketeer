@@ -1,0 +1,12 @@
+{
+    "type": "lychee:dripstone_dripping",
+    "source_block": "water",
+    "target_block": "sandstone",
+    "post": [
+        {
+            "type": "place",
+            "block": "minecraft:sand",
+            "offsetY": 1
+        }
+    ]
+}
