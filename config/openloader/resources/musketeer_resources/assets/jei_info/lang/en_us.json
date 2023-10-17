@@ -6,7 +6,7 @@
     "jei_info.musketeer.brewing_stand": "Nether Wart is removed, use Glow Berries to start the brewing process instead.",
     "jei_info.musketeer.cactus": "Smelting XP has been updated to 0.1 instead of vanilla's 1.0.",
     "jei_info.musketeer.crimson_fungus": "One is guaranteed in every Ruined Nether Portal chest.",
-    "jei_info.musketeer.emerald": "Villagers will now require proper lodging to access better prices, try building a nice village instead of abducting them into a trading hall. Healing a villager from Zombification multiple times will also not continuanlly lower prices.",
+    "jei_info.musketeer.emerald": "Villagers now randomly reroll their trades after they're used rather than when their profession changes. Healing a villager from Zombification multiple times will also not continuanlly lower prices, but you can get discounts by building nice houses.",
     "jei_info.musketeer.ender_eye": "Formerly Eye of Ender - now finds Ancient Cities.",
     "jei_info.musketeer.glowstone_dust": "Formerly Glowstone Dust - Same purpose, different recipe.",
     "jei_info.musketeer.iron_ingot": "Iron Golems no longer drop Iron Ingots, try Toretoises instaed.",
