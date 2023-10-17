@@ -355,23 +355,25 @@ customization {
 
 customization {
   path = fancymenu_setups/_images/lissa.png
-  orientation = top-left
-  x = 24
+  orientation = element
+  orientation_element = 0976dadf-87a7-476f-8983-a06b367c5f041697501024326
+  x = -38
   width = 46
   action = addtexture
   actionid = c0f96d28-80d8-4ab0-a002-2787206eba781697503242654
-  y = 130
+  y = 21
   height = 50
 }
 
 customization {
   path = fancymenu_setups/_images/lissa2.png
-  orientation = top-left
-  x = 380
+  orientation = element
+  orientation_element = a3196713-d3f5-45d3-9a55-1ffae537f8bd1697501609803
+  x = 123
   width = 52
   action = addtexture
   actionid = 5f25f17f-39d4-454c-afba-6ce51e6cff4c1697503488646
-  y = 120
+  y = 29
   height = 60
 }
 

@@ -1,0 +1,7 @@
+type = cached_variables
+
+variables {
+  seen_tutorial = true
+  easter_egg = n
+}
+
