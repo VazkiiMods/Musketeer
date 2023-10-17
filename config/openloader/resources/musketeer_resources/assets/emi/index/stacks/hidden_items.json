@@ -1,6 +1,7 @@
 {
     "added": [],
     "removed": [
+        "item:minecraft:petrified_oak_slab",
         "item:absentbydesign:wall_andesite_smooth",
         "item:absentbydesign:wall_diorite_smooth",
         "item:absentbydesign:wall_granite_smooth",

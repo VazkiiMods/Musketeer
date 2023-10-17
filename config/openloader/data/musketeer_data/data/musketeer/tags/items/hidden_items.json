@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
+        "minecraft:petrified_oak_slab",
         "absentbydesign:wall_andesite_smooth",
         "absentbydesign:wall_diorite_smooth",
         "absentbydesign:wall_granite_smooth",
