@@ -22,3 +22,11 @@ craftingTable.addShaped("drawers_with_iron",
 		[[iron, planks, iron],
 		[air, chest, air],
 		[iron, planks, iron]]);
+
+// Remove weird Absent By Design recipes
+craftingTable.removeByName("absentbydesign:stripped_oak_wood");
+craftingTable.removeByName("absentbydesign:stripped_spruce_wood");
+craftingTable.removeByName("absentbydesign:stripped_birch_wood");
+craftingTable.removeByName("absentbydesign:stripped_jungle_wood");
+craftingTable.removeByName("absentbydesign:stripped_acacia_wood");
+craftingTable.removeByName("absentbydesign:stripped_dark_oak_wood");
