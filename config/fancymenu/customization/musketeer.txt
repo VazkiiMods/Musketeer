@@ -47,12 +47,18 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:e2c07e88-9389-4750-94ae-205b2a5be0901697503617532] = seen_tutorial:true
+  action = vanilla_button_visibility_requirements
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   orientation = element
   orientation_element = vanillabtn:376382
   x = 25
   action = movebutton
-  y = 2
+  y = 1
 }
 
 customization {
@@ -116,7 +122,7 @@ customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   orientation = element
   orientation_element = 26840d08-ca8a-42c7-a3b1-426f996af5a21686592101865
-  x = -28
+  x = -39
   action = movebutton
   y = 28
 }
@@ -171,6 +177,12 @@ customization {
   action = setbuttontexture
   backgroundhovered = fancymenu_setups\_images\btn90_hover.png
   backgroundnormal = fancymenu_setups\_images\btn90.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = vanilla_button_visibility_requirements
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:3ce3bc7b-c6db-46db-8492-499a17360e0d1697503591875] = seen_tutorial:true
 }
 
 customization {
@@ -291,8 +303,8 @@ customization {
   description = Violet Moon Discord
   label = 
   loopbackgroundanimations = true
-  orientation_element = cef5e269-6b49-432b-b9e3-a7f5ef0adf681650334908456
-  x = 26
+  orientation_element = 08f0e234-e1ac-4e46-948a-d24a045cf4f31697500172176
+  x = 24
   width = 20
   action = addbutton
   actionid = 729b8a7d-e4b9-4407-bea9-9e862d28f4fd1650334663251
@@ -314,7 +326,7 @@ customization {
   width = 20
   action = addbutton
   actionid = b229105b-fcc0-43b3-9c52-ae1e51c955961650334901634
-  y = 0
+  y = -1
   backgroundnormal = fancymenu_setups\_images\btntwt.png
   height = 20
 }
@@ -332,7 +344,7 @@ customization {
   width = 20
   action = addbutton
   actionid = cef5e269-6b49-432b-b9e3-a7f5ef0adf681650334908456
-  y = 0
+  y = 1
   backgroundnormal = fancymenu_setups\_images\btnpatreon.png
   height = 20
 }
@@ -363,7 +375,7 @@ customization {
   width = 20
   action = addbutton
   actionid = 268f64dd-5b5b-436e-93b1-995db90192cd1650940749718
-  y = -2
+  y = -1
   backgroundnormal = fancymenu_setups\_images\btnclose.png
   height = 20
 }
@@ -497,6 +509,7 @@ customization {
 
 customization {
   orientation = element
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:3fa3ef46-195a-44bb-83a6-6ed7403f5e231697503605486] = seen_tutorial:true
   restartbackgroundanimations = true
   buttonaction = join_last_world%btnaction_splitter_fm%
   backgroundhovered = fancymenu_setups/_images/btn_tutorial_hover.png
@@ -510,5 +523,37 @@ customization {
   y = -26
   backgroundnormal = fancymenu_setups/_images/btn_tutorial.png
   height = 20
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://forum.violetmoon.org%btnaction_splitter_fm%
+  backgroundhovered = fancymenu_setups\_images\btnforum_hover.png
+  description = Violet Moon Forums
+  label = 
+  loopbackgroundanimations = true
+  orientation_element = cef5e269-6b49-432b-b9e3-a7f5ef0adf681650334908456
+  x = 24
+  width = 20
+  action = addbutton
+  actionid = 08f0e234-e1ac-4e46-948a-d24a045cf4f31697500172176
+  y = 0
+  backgroundnormal = fancymenu_setups\_images\btnforum.png
+  height = 20
+}
+
+customization {
+  tickeraction_0_set_variable = easter_egg:{"placeholder":"randomtext","values":{"path":"fancymenu_setups/easter_egg.txt","interval":"1"}}
+  orientation = top-left
+  tick_delay = 0
+  is_async = false
+  x = 1
+  width = 70
+  action = custom_layout_element:fancymenu_customization_item_ticker
+  actionid = 614e4022-e2b2-4f84-98d2-b4a4e1ae91fa1697502640941
+  y = 8
+  tick_mode = on_menu_load
+  height = 14
 }
 

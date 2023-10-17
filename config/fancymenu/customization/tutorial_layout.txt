@@ -19,14 +19,16 @@ customization {
 }
 
 customization {
-  path = fancymenu_setups/_images/tutorial.png
-  orientation = mid-centered
-  x = -132
-  width = 261
+  path = fancymenu_setups/_images/snence.png
+  orientation = element
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:839bf3b8-f5e8-4d23-84fb-68f75f648b161697502603518] = easter_egg:yes
+  orientation_element = a3196713-d3f5-45d3-9a55-1ffae537f8bd1697501609803
+  x = -13
+  width = 18
   action = addtexture
-  actionid = a42bf591-d889-4be1-9a85-b53e902f5b141686592911179
-  y = -53
-  height = 100
+  actionid = 9022cfe1-dab8-4df6-ba67-e01a4714aa7e1697502176262
+  y = 47
+  height = 28
 }
 
 customization {
@@ -41,7 +43,7 @@ customization {
   width = 200
   action = addbutton
   actionid = f1b20358-215d-4547-b5e1-41d3bd36b9991686592960698
-  y = 52
+  y = 81
   backgroundnormal = fancymenu_setups/_images/btn200.png
   height = 20
 }
@@ -51,12 +53,325 @@ customization {
   orientation = top-left
   tick_delay = 0
   is_async = false
-  x = 59
-  width = 70
+  x = 0
+  width = 44
   action = custom_layout_element:fancymenu_customization_item_ticker
   actionid = f12e110d-7276-4269-8153-4cda85e9f4311697497333625
-  y = 128
+  y = 7
   tick_mode = on_menu_load
-  height = 70
+  height = 10
+}
+
+customization {
+  orientation = mid-centered
+  enable_scrolling = true
+  shadow = true
+  scale = 2.0
+  source = Musketeer Tutorial
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -100
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 54dd6161-d72e-453e-8f3f-8ed12cbcbb691697500464457
+  y = -113
+  alignment = centered
+  height = 40
+}
+
+customization {
+  orientation = element
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = 101, in your Inventory
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = 54dd6161-d72e-453e-8f3f-8ed12cbcbb691697500464457
+  x = -99
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = bbb5d8c0-840c-4e18-bbab-54357007a1b01697500540448
+  y = 23
+  alignment = centered
+  height = 13
+}
+
+customization {
+  path = fancymenu_setups/_images/powder_item.png
+  orientation = element
+  orientation_element = bbb5d8c0-840c-4e18-bbab-54357007a1b01697500540448
+  x = 54
+  width = 18
+  action = addtexture
+  actionid = c1cabdf5-eaaa-4eb6-9b65-fb3d869529021697500659433
+  y = 25
+  height = 18
+}
+
+customization {
+  path = fancymenu_setups/_images/mouse.png
+  orientation = element
+  orientation_element = c1cabdf5-eaaa-4eb6-9b65-fb3d869529021697500659433
+  x = 2
+  width = 21
+  action = addtexture
+  actionid = 253f3aa6-44ff-4f60-85e2-90b248a7702f1697500775566
+  y = 15
+  height = 30
+}
+
+customization {
+  orientation = element
+  enable_scrolling = true
+  shadow = false
+  scale = 1.0
+  source = How%n%to make
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = 253f3aa6-44ff-4f60-85e2-90b248a7702f1697500775566
+  x = -47
+  width = 47
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = be569448-27bc-4ff1-a691-375cd65d81e61697500807103
+  y = 5
+  alignment = right
+  base_color = 00bbff
+  height = 25
+}
+
+customization {
+  orientation = element
+  enable_scrolling = true
+  shadow = false
+  scale = 1.0
+  source = What it%n%can make
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = 253f3aa6-44ff-4f60-85e2-90b248a7702f1697500775566
+  x = 22
+  width = 50
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 61d9a81e-29b3-4741-a6e7-70cc8e0048ad1697500913251
+  y = 5
+  alignment = left
+  base_color = ff8800
+  height = 25
+}
+
+customization {
+  path = fancymenu_setups/_images/powder.png
+  orientation = element
+  orientation_element = bbb5d8c0-840c-4e18-bbab-54357007a1b01697500540448
+  x = 25
+  width = 152
+  action = addtexture
+  actionid = 0976dadf-87a7-476f-8983-a06b367c5f041697501024326
+  y = 73
+  height = 57
+}
+
+customization {
+  path = fancymenu_setups/_images/info_tab.png
+  orientation = element
+  orientation_element = 0976dadf-87a7-476f-8983-a06b367c5f041697501024326
+  x = 119
+  width = 24
+  action = addtexture
+  actionid = ed172206-d3a0-4e25-b3cf-bfd2cdfc90041697501128338
+  y = -26
+  height = 29
+}
+
+customization {
+  orientation = element
+  enable_scrolling = true
+  shadow = false
+  scale = 1.0
+  source = Look out for%n%Info tabs!
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = ed172206-d3a0-4e25-b3cf-bfd2cdfc90041697501128338
+  x = -31
+  width = 87
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 3aa9f47c-e879-47ed-b73c-4e35a23610211697501166894
+  y = -23
+  alignment = centered
+  base_color = #e9a9e8
+  height = 22
+}
+
+customization {
+  orientation = element
+  enable_scrolling = true
+  shadow = false
+  scale = 1.0
+  source = Click an item...
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = c1cabdf5-eaaa-4eb6-9b65-fb3d869529021697500659433
+  x = -36
+  width = 90
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = dd3f61b0-ec1d-42fd-9a3c-f05f36d3ca5f1697501266171
+  y = -12
+  alignment = centered
+  base_color = ffffff
+  height = 12
+}
+
+customization {
+  path = fancymenu_setups/_images/searchbar.png
+  orientation = element
+  orientation_element = bbb5d8c0-840c-4e18-bbab-54357007a1b01697500540448
+  x = 28
+  width = 162
+  action = addtexture
+  actionid = dc120b2a-1f7e-470f-be9f-30951427c9fe1697501433493
+  y = 141
+  height = 20
+}
+
+customization {
+  orientation = element
+  enable_scrolling = true
+  shadow = false
+  scale = 1.0
+  source = Look up 101 to get started!
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = dc120b2a-1f7e-470f-be9f-30951427c9fe1697501433493
+  x = 8
+  width = 142
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 00484cee-2f5d-40ef-84d7-9196c03488061697501485274
+  y = -10
+  alignment = left
+  height = 13
+}
+
+customization {
+  path = fancymenu_setups/_images/variants.png
+  orientation = element
+  orientation_element = da1903d0-496f-4c58-aed8-e8b4aa1888731697501694573
+  x = 36
+  width = 131
+  action = addtexture
+  actionid = a3196713-d3f5-45d3-9a55-1ffae537f8bd1697501609803
+  y = 26
+  height = 112
+}
+
+customization {
+  orientation = element
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = Variant Selector
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = 54dd6161-d72e-453e-8f3f-8ed12cbcbb691697500464457
+  x = 100
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = da1903d0-496f-4c58-aed8-e8b4aa1888731697501694573
+  y = 23
+  alignment = centered
+  height = 13
+}
+
+customization {
+  advanced_height = 150
+  orientation = mid-centered
+  shape = rectangle
+  color = #ffffff77
+  x = 0
+  width = 1
+  action = addshape
+  actionid = 2d837feb-ac1d-4027-a35d-b8ee2977ea511697501731927
+  y = -81
+  advanced_width = 1
+  height = 150
+}
+
+customization {
+  orientation = element
+  enable_scrolling = true
+  shadow = false
+  scale = 1.0
+  source = Use the [R] key to pick variants!
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = a3196713-d3f5-45d3-9a55-1ffae537f8bd1697501609803
+  x = -35
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 02975229-8dc7-4a91-aa20-298d89bc9e841697501791798
+  y = -12
+  alignment = centered
+  base_color = ffffff
+  height = 14
+}
+
+customization {
+  orientation = element
+  enable_scrolling = true
+  shadow = false
+  scale = 1.0
+  source = Variants are placed like this now.%n%No more inventory clutter!
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = a3196713-d3f5-45d3-9a55-1ffae537f8bd1697501609803
+  x = -35
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = d843e1b6-25e0-4a81-8390-cd3cc1298a951697502035712
+  y = 112
+  alignment = centered
+  base_color = ffffff
+  height = 28
+}
+
+customization {
+  path = fancymenu_setups/_images/lissa.png
+  orientation = top-left
+  x = 24
+  width = 46
+  action = addtexture
+  actionid = c0f96d28-80d8-4ab0-a002-2787206eba781697503242654
+  y = 130
+  height = 50
+}
+
+customization {
+  path = fancymenu_setups/_images/lissa2.png
+  orientation = top-left
+  x = 380
+  width = 52
+  action = addtexture
+  actionid = 5f25f17f-39d4-454c-afba-6ce51e6cff4c1697503488646
+  y = 120
+  height = 60
 }
 
