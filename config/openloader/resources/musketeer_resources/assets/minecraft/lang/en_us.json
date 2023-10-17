@@ -26,6 +26,8 @@
 
 	"item.minecraft.blaze_rod": "Monster Mash",
 	"item.minecraft.blaze_powder": "Magma Powder",
+	"item.minecraft.dragon_breath": "Ancient Mix",
+	"item.minecraft.glowstone_dust": "Glow Dust",
 
 	"block.minecraft.wither_skeleton_wall_skull": "Forgotten Wall Skull",
 	"block.minecraft.wither_skeleton_skull": "Forgotten Skull",
@@ -34,8 +36,6 @@
 	"advancements.nether.obtain_blaze_rod.description": "Do some Monster Mash",
 
 	"block.minecraft.end_rod": "Purpur Rod",
-
-	"item.minecraft.glowstone_dust": "Glow Dust",
 
 	"advancements.story.enter_the_nether.title": "We Can't Go Deeper",
 	"advancements.story.enter_the_nether.description": "Build, light, and... fail to enter a Nether Portal?"

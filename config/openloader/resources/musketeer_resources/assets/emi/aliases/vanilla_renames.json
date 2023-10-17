@@ -68,5 +68,10 @@
 			"stacks": "item:minecraft:glowstone_dust",
 			"text": "Glowstone Dust"
 		}
+		,
+		{
+			"stacks": "item:minecraft:dragon_breath",
+			"text": "Dragon's Breath"
+		}
 	]
 }

@@ -10,3 +10,6 @@ var blaze_powder = <item:minecraft:blaze_powder>;
 
 craftingTable.remove(blaze_powder);
 craftingTable.addShapeless("magma_powder", blaze_powder * 16, [<item:minecraft:magma_block>]);
+
+// Ancient Mix
+craftingTable.addShapeless("ancient_mix", <item:minecraft:dragon_breath>, [<item:minecraft:glass_bottle>, <item:quark:ancient_fruit>, <item:quark:glow_shroom>]);
