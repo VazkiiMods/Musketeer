@@ -1,6 +1,11 @@
 {
     "replace": false,
     "values": [
+        "v_slab_compat:absentbydesign/end_stone_vertical_slab",
+        "absentbydesign:slab_end_stone",
+        "absentbydesign:stairs_end_stone",
+        "absentbydesign:wall_end_stone",
+        "absentbydesign:gate_end_stone_bricks",
         "v_slab_compat:absentbydesign/lodestone_vertical_slab",
         "v_slab_compat:absentbydesign/sea_lantern_vertical_slab",
         "v_slab_compat:absentbydesign/glass_vertical_slab",
