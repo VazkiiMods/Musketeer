@@ -1,6 +1,10 @@
 {
     "added": [],
     "removed": [
+        "item:absentbydesign:wall_andesite_smooth",
+        "item:absentbydesign:wall_diorite_smooth",
+        "item:absentbydesign:wall_granite_smooth",
+        "item:absentbydesign:wall_stonebrick_carved",
         "item:v_slab_compat:absentbydesign/end_stone_vertical_slab",
         "item:absentbydesign:slab_end_stone",
         "item:absentbydesign:stairs_end_stone",

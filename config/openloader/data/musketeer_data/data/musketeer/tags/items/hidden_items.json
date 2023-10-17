@@ -1,6 +1,10 @@
 {
     "replace": false,
     "values": [
+        "absentbydesign:wall_andesite_smooth",
+        "absentbydesign:wall_diorite_smooth",
+        "absentbydesign:wall_granite_smooth",
+        "absentbydesign:wall_stonebrick_carved",
         "v_slab_compat:absentbydesign/end_stone_vertical_slab",
         "absentbydesign:slab_end_stone",
         "absentbydesign:stairs_end_stone",
