@@ -470,29 +470,6 @@ customization {
   rotation = -15.0
   scale = 0.8
   refresh = true
-  bouncing = false
-  fadein = true
-  vanilla-like = false
-  fadeinspeed = 1.0
-  orientation_element = 4116190c-1c9e-4188-a941-95e35dbebb001684624149903
-  x = 472
-  actionid = 04dcbe65-e176-4f58-be8d-eaba5d0141bf1697497055972
-  action = addsplash
-  y = 135
-  delayappearance = true
-  delayappearanceeverytime = false
-  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:2873582d-c4f2-4185-a10e-2e51c99117341697497194472] = seen_tutorial:true
-}
-
-customization {
-  orientation = element
-  basecolor = #f1f79d
-  shadow = true
-  delayappearanceseconds = 0.01
-  splashfilepath = fancymenu_setups/splashes.txt
-  rotation = -15.0
-  scale = 0.8
-  refresh = true
   [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if_not][req_id:5c5ae9d8-f46c-4ce0-b566-ab4875d8a7761697497205333] = seen_tutorial:true
   bouncing = false
   fadein = true
