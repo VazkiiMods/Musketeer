@@ -1,0 +1,13 @@
+{
+    "added": [
+        { 
+            "stack": "item:minecraft:sweet_berries",
+            "after": "item:berry_good:sweet_berry_pips"
+        },
+        { 
+            "stack": "item:minecraft:glow_berries",
+            "after": "item:berry_good:glow_berry_pips"
+        }
+    ],
+    "removed": []
+}

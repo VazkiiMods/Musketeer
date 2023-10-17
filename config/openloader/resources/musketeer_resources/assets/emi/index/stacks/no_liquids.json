@@ -1,0 +1,7 @@
+{
+    "added": [],
+    "removed": [
+        "fluid:minecraft:water",
+        "fluid:minecraft:lava"
+    ]
+}
