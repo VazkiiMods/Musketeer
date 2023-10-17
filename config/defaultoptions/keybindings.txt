@@ -65,7 +65,7 @@ key_key.jei.bookmark:key.keyboard.unknown:NONE
 key_key.jei.showRecipe2:key.keyboard.unknown:NONE
 key_key.jei.nextSearch:key.keyboard.unknown:NONE
 key_key.toastcontrol.clear:key.keyboard.unknown:NONE
-key_key.push_to_talk:key.keyboard.r:NONE
+key_key.push_to_talk:key.keyboard.x:NONE
 key_key.whisper:key.keyboard.unknown:NONE
 key_key.mute_microphone:key.keyboard.m:NONE
 key_key.disable_voice_chat:key.keyboard.n:NONE
