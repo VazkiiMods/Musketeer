@@ -50,6 +50,7 @@ def transpose_emi_data():
 
 	hidden_out_data = {
 		"added": [],
+		"disable": True,
 		"removed": hidden_stacks
 	}
 
