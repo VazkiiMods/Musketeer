@@ -32,30 +32,18 @@
 
 		[types.cut_block_type.absentbydesign]
 			end_stone = true
-			netherrack = true
-			snow = true
 			coarse_dirt = true
-			obsidian = true
-			basalt = true
 			polished_basalt = true
 			crying_obsidian = true
-			lodestone = true
 			quartz_bricks = true
-			glowstone = true
 			sea_lantern = true
-			terracotta = true
-			glass = true
 			mushroom_stem = true
 			red_mushroom = true
 			brown_mushroom = true
-			calcite = true
-			tuff = true
 			smooth_basalt = true
 			cracked_nether_bricks = true
 			cracked_deepslate_bricks = true
 			cracked_deepslate_tiles = true
-			sculk = true
-			mud = true
 			packed_mud = true
 			reinforced_deepslate = true
 			ochre_froglight = true
