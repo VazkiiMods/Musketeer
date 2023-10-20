@@ -1728,7 +1728,7 @@
 			"Variant Types" = ["slab", "vertical_slab", "stairs", "wall", "fence", "unique"]
 			#By default, only a mod's namespace is scanned for variants for its items (e.g. if coolmod adds coolmod:fun_block, it'll search only for coolmod:fun_block_stairs).
 			# Mods in this list are also scanned for variants if none are found in itself (e.g. if quark is in the list and coolmod:fun_block_stairs doesn't exist, it'll try to look for quark:fun_block_stairs next)
-			"Tested Mods" = ["quark", "absentbydesign", "v_slab_compat", "clayworks"]
+			"Tested Mods" = ["quark", "clayworks"]
 			"Print Variant Map To Log" = true
 			#Format is 'alias=original' in each value (e.g. 'wall=fence' means that a failed search for, minecraft:cobblestone_fence will try cobblestone_wall next)
 			Aliases = ["carpet=unique", "fence_gate=unique", "pane=unique"]
@@ -1740,7 +1740,7 @@
 			#To exclude a block from being turned into other blocks, just include the block ID (e.g. minecraft:cobblestone).
 			#To exclude a block from having other blocks turned into it, suffix it with = (e.g. =minecraft:cobblestone_stairs)
 			#To exclude a specific block->variant combination, put = between the two (e.g. minecraft:cobblestone=minecraft:cobblestone_stairs)
-			Blacklist = ["minecraft:sweet_berries", "minecraft:glow_berries", "minecraft:bamboo", "supplementaries:skull_candle_soul_wall", "supplementaries:skull_candle_wall", "supplementaries:sconce_wall", "supplementaries:sconce", "minecraft:snow", "quark:bamboo_block=quark:bamboo_fence", "minecraft:azalea"]
+			Blacklist = ["minecraft:sweet_berries", "minecraft:glow_berries", "minecraft:bamboo", "supplementaries:skull_candle_soul_wall", "supplementaries:skull_candle_wall", "supplementaries:sconce_wall", "supplementaries:sconce", "minecraft:snow", "quark:bamboo_block=quark:bamboo_fence", "minecraft:azalea", "=minecraft:air"]
 
 	[experimental.villager_rerolling_rework]
 		#If enabled, the first two trades a villager generates for a profession will always be the same for a given villager.
