@@ -1,0 +1,7 @@
+{
+    "added": [],
+    "disable": true,
+    "removed": [
+        "#item:musketeer:made_with_variant_selector"
+    ]
+}
