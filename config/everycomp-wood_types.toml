@@ -109,6 +109,7 @@
 			light_gray_wool = true
 			light_blue_terracotta = true
 			light_gray_terracotta = true
+			bricks_cracked = true
 
 		[types.cut_block_type.windswept]
 			holly = true
