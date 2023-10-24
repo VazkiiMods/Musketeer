@@ -15,7 +15,7 @@ do_modrinth = False
 book_file = ''
 
 # Files to copy to the output zips
-files_to_copy = ['config', 'defaultconfigs', 'fancymenu_setups', 'scripts', 'resourcepacks']
+files_to_copy = ['config', 'defaultconfigs', 'fancymenu_setups', 'scripts']
 
 # Files to not copy to the output zips
 blacklisted_files = [
