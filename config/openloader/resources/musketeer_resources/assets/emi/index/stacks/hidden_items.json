@@ -2,6 +2,7 @@
     "added": [],
     "disable": true,
     "removed": [
+        "item:quark:matrix_enchanter",
         "item:minecraft:petrified_oak_slab",
         "item:absentbydesign:wall_andesite_smooth",
         "item:absentbydesign:wall_diorite_smooth",
@@ -346,7 +347,6 @@
         "item:minecraft:dragon_head",
         "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"walljump:doublejump\",lvl:1s}]}",
         "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"walljump:doublejump\",lvl:2s}]}",
-        "item:minecraft:wither_rose",
         "item:quark:soul_sandstone_bricks_slab",
         "item:quark:soul_sandstone_bricks_stairs",
         "item:quark:soul_sandstone_bricks_wall",
@@ -355,7 +355,6 @@
         "item:quark:nether_wart_sack",
         "item:quark:ravager_hide",
         "item:quark:blaze_lantern",
-        "item:windswept:wither_rose_bush",
         "item:supplementaries:key",
         "item:quark:rope",
         "item:woodworks:oak_leaf_pile",

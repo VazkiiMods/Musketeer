@@ -8,7 +8,7 @@
     "jei_info.musketeer.emerald": "Villagers now randomly reroll their trades after they're used rather than when their profession changes. Healing a villager from Zombification multiple times will also not continuanlly lower prices, but you can get discounts by building nice houses.",
     "jei_info.musketeer.ender_eye": "Formerly Eye of Ender - now finds Ancient Cities.",
     "jei_info.musketeer.glowstone_dust": "Formerly Glowstone Dust - Same purpose, different recipe.",
-    "jei_info.musketeer.iron_ingot": "Iron Golems no longer drop Iron Ingots, try Toretoises instaed.",
+    "jei_info.musketeer.iron_ingot": "Iron Golems no longer drop Iron Ingots, try Toretoises instead.",
     "jei_info.musketeer.leather_horse_armor": "Horses now always pass on their traits positively to offspring, and will never have children with worse parameters, give breeding a try sometime!",
     "jei_info.musketeer.netherrack": "Can be gotten by attempting to light up a Nether Portal.",
     "jei_info.musketeer.tnt": "TNT Duplicating Machines have been disabled.",
@@ -25,6 +25,7 @@
     "jei_info.musketeer.drawers": "Can hold up to 32 stacks of any one given item. Breaking the Vault with items inside lets you carry the items in your inventory.",
     "jei_info.musketeer.dripping": "Dripstone Dripping can be used to slowly generate new Sand, Red Sand, and Gravel blocks. An empty air block is needed below the Pointed Dripstone for the blocks to show up in.",
     "jei_info.musketeer.carpets": "When set to Carpet in the variant selector, Wool can be used on any placed Stair blocks to add a carpet to the top.",
+    "jei_info.musketeer.mending": "The Mending enchantment now works in a different way. When applied to an item, it'll reset its anvil uses, getting rid of \"Too Expensive!\". If an item already has Mending on it, next time it's repaired it'll have the same effect and lose Mending.",
 
     "hidden_tooltip.musketeer":"Disabled by Musketeer. Please do not use.",
     "hidden_tooltip.variant":"Disabled as Item. Drop to revert to base version."

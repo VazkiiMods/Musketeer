@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
+        "quark:matrix_enchanter",
         "minecraft:petrified_oak_slab",
         "absentbydesign:wall_andesite_smooth",
         "absentbydesign:wall_diorite_smooth",
@@ -343,7 +344,6 @@
         "minecraft:totem_of_undying",
         "minecraft:warped_fungus_on_a_stick",
         "minecraft:dragon_head",
-        "minecraft:wither_rose",
         "quark:soul_sandstone_bricks_slab",
         "quark:soul_sandstone_bricks_stairs",
         "quark:soul_sandstone_bricks_wall",
@@ -352,7 +352,6 @@
         "quark:nether_wart_sack",
         "quark:ravager_hide",
         "quark:blaze_lantern",
-        "windswept:wither_rose_bush",
         "supplementaries:key",
         "quark:rope",
         "woodworks:oak_leaf_pile",

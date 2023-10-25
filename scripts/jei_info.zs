@@ -35,3 +35,4 @@ i(<item:quark:myalite>, "myalite");
 i(<item:supplementaries:wrench>, "wrench");
 i(<item:storagedrawers:oak_full_drawers_1>, "drawers");
 i(<item:minecraft:white_wool>, "carpets");
+i(<item:minecraft:anvil>, "mending");
