@@ -3,7 +3,7 @@ var blaze_rod = <item:minecraft:blaze_rod>;
 blaze_rod.setBurnTime(0);
 <tag:items:forge:rods>.remove(blaze_rod);
 
-craftingTable.addShapeless("monster_mash", blaze_rod, [<item:minecraft:string>, <item:minecraft:gunpowder>, <item:minecraft:rotten_flesh>, <item:minecraft:bone>, <item:minecraft:slime_ball>, <item:minecraft:magma_cream>]);
+craftingTable.addShapeless("monster_mash", blaze_rod, [<item:minecraft:string>, <item:minecraft:gunpowder>, <item:minecraft:rotten_flesh>, <item:minecraft:bone>, <item:minecraft:slime_ball>, <item:minecraft:spider_eye>]);
 
 // Magma Powder
 var blaze_powder = <item:minecraft:blaze_powder>;
