@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
+        "moreminecarts:coupler",
         "quark:matrix_enchanter",
         "minecraft:petrified_oak_slab",
         "absentbydesign:wall_andesite_smooth",
