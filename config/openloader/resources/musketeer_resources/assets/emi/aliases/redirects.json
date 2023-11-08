@@ -41,7 +41,8 @@
 				"item:minecraft:map",
 				"item:minecraft:white_wool",
 				"item:map_atlases:atlas",
-        		"item:minecraft:anvil"
+        		"item:minecraft:anvil",
+        		"item:supplementaries:altimeter"
 			],
 			"text": [
 				"Musketeer's Tools",
