@@ -53,6 +53,8 @@ in_hand_renderer = "NOT_LOCKED"
 	only_show_north_cardinal = false
 	#Shows map separation borders
 	map_borders = true
+	#Use sky color for minimap
+	darken_at_night = false
 
 [world_map]
 	#Use bigger book like texture for worldmap view. Makes the view a bit bigger. Recommended to ebe used with map scale 1 (you might want to lower lectern one too if buttons dont show)
@@ -79,4 +81,6 @@ in_hand_renderer = "NOT_LOCKED"
 	compact_slices_indicator = false
 	#Allows minimap to follow player movement instead of only displaying current map
 	follow_player = true
+	#Makes zooming work smoothly instead of in 2 maps increments
+	smooth_zooming = true
 

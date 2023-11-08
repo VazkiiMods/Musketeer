@@ -19,6 +19,8 @@ activation_locations = "HOTBAR_AND_HANDS"
 creative_teleport = true
 #Marker id associated with the red pin button on the atlas screen. Set to empty string to disable
 pin_marked_id = "map_atlases:pin"
+#Makes maps updates multithreaded. Can substantially improve atlas performance.Disable incase it causes concurrency issues with other mods
+multithreaded_updates = true
 
 [update_logic]
 	#Update maps in simple round robin fashion instead of prioritizing the ones closer. Overrides configs below
