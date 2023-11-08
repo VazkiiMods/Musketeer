@@ -215,7 +215,7 @@
 				# 
 				# The minimum amount of allocated RAM in GB needed to be able to launch the modpack.
 				#Range: 0.1 ~ 1024.0
-				reqMinMemoryAmountInGB = 0.5
+				reqMinMemoryAmountInGB = 1.0
 
 			[Java.Memory.Min.Warning]
 				# 
@@ -243,7 +243,7 @@
 				# 
 				# The maximum amount of allocated RAM in GB to be able to launch the modpack.
 				#Range: 0.1 ~ 1024.0
-				reqMaxMemoryAmountInGB = 8.0
+				reqMaxMemoryAmountInGB = 6.0
 				# 
 				# Enable this to require that no more than X amount of RAM is available to the
 				# modpack for allocating.

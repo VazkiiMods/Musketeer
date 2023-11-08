@@ -6,6 +6,9 @@ var backpack = <item:quark:backpack>;
 var drawers = <item:storagedrawers:oak_full_drawers_1>;
 var air = <item:minecraft:air>;
 var planks = <tag:items:minecraft:planks>;
+var glass_item_frame = <item:quark:glass_item_frame>;
+var glass = <item:minecraft:glass>;
+var item_frame = <item:minecraft:item_frame>;
 
 // Backpack but more expensive
 craftingTable.remove(backpack);
@@ -30,3 +33,10 @@ craftingTable.removeByName("absentbydesign:stripped_birch_wood");
 craftingTable.removeByName("absentbydesign:stripped_jungle_wood");
 craftingTable.removeByName("absentbydesign:stripped_acacia_wood");
 craftingTable.removeByName("absentbydesign:stripped_dark_oak_wood");
+
+craftingTable.remove(glass_item_frame);
+craftingTable.addShaped("glass_glass_item_frame", 
+		glass_item_frame * 3,
+		[[glass, glass, glass], 
+		[glass, item_frame, glass],
+		[glass, glass, glass]]);
